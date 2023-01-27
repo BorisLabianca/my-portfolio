@@ -1,38 +1,130 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+* {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+:root {
+  --color-primary: #191d2b;
+  --color-secondary: #225eb3;
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-grey-0: #f8f8f8;
+  --color-grey-1: #dbe1e8;
+  --color-grey-2: #b2becd;
+  --color-grey-3: #6c7983;
+  --color-grey-4: #454e56;
+  --color-grey-5: #2a2e35;
+  --color-grey-6: #12181b;
+  --br-sm-2: 14px;
+  --box-shadow-1: 0 3px 15px rgba(0, 0, 0, 0.2);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+body {
+  background-color: var(--color-primary);
+  font-size: 1.1rem;
+  color: var(--color-white);
+  transition: all 0.4s ease-in-out;
+}
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+  font-family: inherit;
+}
+.header {
+  height: 100vh;
+  color: var(--color-white);
+  overflow: hidden;
+}
+.main-section {
+  min-height: 100vh;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 3rem 18rem;
+}
+.section {
+  transform: translateY(-100%);
+  transition: all 0.4s ease-in-out;
+  background-color: var(--color-primary);
+}
+.sec1 {
+  display: none;
+  transform: translateY(0) scale(1);
+  transition: all 0.4s ease-in-out;
+  background-color: blue;
+}
+.sec2 {
+  display: none;
+  transform: translateY(0) scale(1);
+  transition: all 0.4s ease-in-out;
+  background-color: red;
+}
+.sec3 {
+  display: none;
+  transform: translateY(0) scale(1);
+  transition: all 0.4s ease-in-out;
+  background-color: yellow;
+}
+.sec4 {
+  display: none;
+  transform: translateY(0) scale(1);
+  transition: all 0.4s ease-in-out;
+  background-color: violet;
+}
+.sec5 {
+  display: none;
+  transform: translateY(0) scale(1);
+  transition: all 0.4s ease-in-out;
+  background-color: orange;
+}
+.active {
+  display: block;
+  animation: scaleAnim 1s ease-in-out;
+}
+@keyframes scaleAnim {
+  0% {
+    transform: translateY(-100%) scaleY(0);
+  }
+  100% {
+    transform: translateY(0) scaleY(1);
   }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Controls */
+.controls {
+  position: fixed;
+  z-index: 10;
+  top: 50%;
+  right: 3%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  transform: translateY(-50%);
 }
-
-.App-link {
-  color: #61dafb;
+.controls .control.active-btn {
+  background-color: var(--color-secondary);
+  transition: all 0.4s ease-in-out;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.controls .control.active-btn .icon {
+  color: var(--color-white);
+}
+.controls .control {
+  padding: 1rem;
+  cursor: pointer;
+  background-color: var(--color-grey-4);
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0.7rem 0;
+  box-shadow: var(--box-shadow-1);
+}
+.controls .control .icon {
+  font-size: 1.2rem;
+  pointer-events: none;
+  color: var(--color-grey-2);
 }
