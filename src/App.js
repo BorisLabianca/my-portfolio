@@ -8,6 +8,7 @@ import {
   FaUser,
   FaBriefcase,
 } from "react-icons/fa";
+import NavButton from "./components/NavButton";
 import Header from "./components/Header";
 import Home from "./components/Home";
 import About from "./components/About";
@@ -17,6 +18,13 @@ import Contact from "./components/Contact";
 import { useState } from "react";
 
 function App() {
+  const buttonsArray = [
+    { faType: <FaHome className="icon" /> },
+    { faType: <FaUser className="icon" /> },
+    { faType: <FaBriefcase className="icon" /> },
+    { faType: <FaQuestion className="icon" /> },
+    { faType: <FaEnvelope className="icon" /> },
+  ];
   const [btnClass, setBtnClass] = useState([
     "control control-1 active-btn",
     "control control-2",
@@ -134,7 +142,7 @@ function App() {
         <AboutThisSite activeSection={activeSection} />
         <Contact activeSection={activeSection} />
       </main>
-      <div className="controls">
+      {/* <div className="controls">
         <div
           className={btnClass[0]}
           onClick={() => {
@@ -175,6 +183,19 @@ function App() {
         >
           <FaEnvelope className="icon" />
         </div>
+      </div> */}
+      <div className="controls">
+        {buttonsArray.map((elem, index) => {
+          return (
+            <NavButton
+              icon={elem.faType}
+              key={index}
+              btnClass={btnClass}
+              index={index}
+              pageTransitions={pageTransitions}
+            />
+          );
+        })}
       </div>
     </div>
   );
