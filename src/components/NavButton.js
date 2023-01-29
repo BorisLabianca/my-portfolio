@@ -1,9 +1,16 @@
-const NavButton = ({ icon, btnClass, index, pageTransitions }) => {
+import { useSelector, useDispatch } from "react-redux";
+import { navigateBetweenSections } from "../features/navigation/navigationSlice";
+
+const NavButton = ({ icon, index }) => {
+  const dispatch = useDispatch();
+  const { classIndex } = useSelector((store) => store.navigation);
   return (
     <div
-      className={btnClass[index]}
+      className={`control control-${index + 1} ${
+        classIndex === index ? "active-btn" : ""
+      }`}
       onClick={() => {
-        pageTransitions(index);
+        dispatch(navigateBetweenSections(index));
       }}
     >
       {icon}
