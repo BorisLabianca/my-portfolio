@@ -31,7 +31,7 @@ a {
   color: inherit;
   font-family: inherit;
 }
-.header {
+.home {
   height: 100vh;
   color: var(--color-white);
   overflow: hidden;
@@ -53,31 +53,26 @@ a {
   display: none;
   transform: translateY(0) scale(1);
   transition: all 0.4s ease-in-out;
-  background-color: blue;
 }
 .sec2 {
   display: none;
   transform: translateY(0) scale(1);
   transition: all 0.4s ease-in-out;
-  background-color: red;
 }
 .sec3 {
   display: none;
   transform: translateY(0) scale(1);
   transition: all 0.4s ease-in-out;
-  background-color: yellow;
 }
 .sec4 {
   display: none;
   transform: translateY(0) scale(1);
   transition: all 0.4s ease-in-out;
-  background-color: violet;
 }
 .sec5 {
   display: none;
   transform: translateY(0) scale(1);
   transition: all 0.4s ease-in-out;
-  background-color: orange;
 }
 .active {
   display: block;
@@ -127,4 +122,53 @@ a {
   font-size: 1.2rem;
   pointer-events: none;
   color: var(--color-grey-2);
+}
+
+/* Home style */
+.home-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  height: 100%;
+}
+.home-left {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.home-shape {
+  transition: all 0.4s ease-in-out;
+  width: 65%;
+  height: 100%;
+  background-color: var(--color-secondary);
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  clip-path: polygon(0 0, 46% 0, 79% 100%, 0% 100%);
+}
+.home-left .image {
+  width: 68%;
+  height: auto;
+  margin-left: 4rem;
+  filter: grayscale(100%);
+  transition: all 0.4s ease-in-out;
+}
+.image:hover {
+  filter: grayscale(0);
+}
+.home-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 18rem;
+}
+.name {
+  font-size: 3rem;
+}
+.name span {
+  color: var(--color-secondary);
+}
+.home-right p {
+  margin: 1.5rem 0;
+  line-height: 2rem;
 }

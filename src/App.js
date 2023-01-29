@@ -1,15 +1,12 @@
 import "./App.css";
 import {
-  FaGithub,
-  FaLinkedin,
   FaEnvelope,
   FaHome,
   FaUser,
   FaBriefcase,
+  FaWindowMaximize,
 } from "react-icons/fa";
-import { GoBrowser } from "react-icons/go";
 import NavButton from "./components/NavButton";
-import Header from "./components/Header";
 import Home from "./components/Home";
 import About from "./components/About";
 import Portfolio from "./components/Portfolio";
@@ -21,7 +18,7 @@ function App() {
     { icon: <FaHome className="icon" /> },
     { icon: <FaUser className="icon" /> },
     { icon: <FaBriefcase className="icon" /> },
-    { icon: <GoBrowser className="icon" /> },
+    { icon: <FaWindowMaximize className="icon" /> },
     { icon: <FaEnvelope className="icon" /> },
   ];
   // const [btnClass, setBtnClass] = useState([
