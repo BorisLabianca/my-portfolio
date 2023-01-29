@@ -1,6 +1,6 @@
 import { useSelector } from "react-redux";
 import profilePic from "../assets/portfolio_profile_pic.svg";
-import { FaDownload } from "react-icons/fa";
+import CVDownloadButton from "./CVDownloadButton";
 
 const Home = () => {
   const { classIndex } = useSelector((store) => store.navigation);
@@ -27,13 +27,7 @@ const Home = () => {
             dolorem ipsam tenetur voluptate, iusto doloremque nihil? Ratione
             blanditiis harum soluta officiis accusantium ducimus distinctio.
           </p>
-          <a
-            href="https://drive.google.com/file/d/1b3SZGNJ421K_Iid_QVeyP9k2DWtRNqDd/view?usp=share_link"
-            className="main-btn"
-          >
-            <span className="btn-text">Download CV</span>
-            <FaDownload />
-          </a>
+          <CVDownloadButton />
         </div>
       </div>
     </div>

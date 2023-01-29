@@ -76,6 +76,39 @@ const AboutThisSite = () => {
       <a target="_blank" href="https://icons8.com" rel="noreferrer">
         Icons8
       </a>
+      <a
+        target="_blank"
+        href="https://icons8.com/icon/e57Y1CnsOasB/adobe-premiere-pro"
+        rel="noreferrer"
+      >
+        Adobe Premiere Pro
+      </a>{" "}
+      icon by{" "}
+      <a target="_blank" href="https://icons8.com" rel="noreferrer">
+        Icons8
+      </a>
+      <a
+        target="_blank"
+        href="https://icons8.com/icon/13631/adobe-illustrator"
+        rel="noreferrer"
+      >
+        Adobe Illustrator
+      </a>{" "}
+      icon by{" "}
+      <a target="_blank" href="https://icons8.com" rel="noreferrer">
+        Icons8
+      </a>
+      <a
+        target="_blank"
+        href="https://icons8.com/icon/13677/adobe-photoshop"
+        rel="noreferrer"
+      >
+        Adobe Photoshop
+      </a>{" "}
+      icon by{" "}
+      <a target="_blank" href="https://icons8.com" rel="noreferrer">
+        Icons8
+      </a>
     </div>
   );
 };
