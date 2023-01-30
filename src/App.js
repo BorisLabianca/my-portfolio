@@ -143,12 +143,26 @@ function App() {
             Fr
           </div>
           <div
-            className={language === "jap" ? "selected" : "not-selected"}
+            className={
+              language === "jap" ? "jap-big selected" : "jap-big not-selected"
+            }
             onClick={() => {
               dispatch(switchLanguage("jap"));
             }}
           >
             日本語
+          </div>
+          <div
+            className={
+              language === "jap"
+                ? "jap-small selected"
+                : "jap-small not-selected"
+            }
+            onClick={() => {
+              dispatch(switchLanguage("jap"));
+            }}
+          >
+            日
           </div>
         </div>
       </div>
