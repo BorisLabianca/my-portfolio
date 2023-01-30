@@ -1,5 +1,6 @@
 import { useSelector, useDispatch } from "react-redux";
 import { switchLanguage } from "./features/language/languageSlice";
+import { switchTheme } from "./features/theme/themeSlice";
 import "./App.css";
 import {
   FaEnvelope,
@@ -7,6 +8,9 @@ import {
   FaUser,
   FaBriefcase,
   FaWindowMaximize,
+  FaSun,
+  FaMoon,
+  FaLanguage,
 } from "react-icons/fa";
 import NavButton from "./components/NavButton";
 import Home from "./components/Home";
@@ -53,9 +57,12 @@ function App() {
     },
   ];
   const { language } = useSelector((store) => store.language);
+  const { theme } = useSelector((store) => store.theme);
 
   return (
-    <div className="App main-content">
+    <div
+      className={`App main-content ${theme === "white" ? "light-mode" : ""}`}
+    >
       {/* <Header /> */}
       <main>
         <Home
@@ -117,30 +124,46 @@ function App() {
         })}
       </div>
       <div className="language-switch">
-        <div
-          className={language === "eng" ? "selected" : "not-selected"}
-          onClick={() => {
-            dispatch(switchLanguage("eng"));
-          }}
-        >
-          Eng
+        <FaLanguage className="icon" />
+        <div className="language-switch-hover">
+          <div
+            className={language === "eng" ? "selected" : "not-selected"}
+            onClick={() => {
+              dispatch(switchLanguage("eng"));
+            }}
+          >
+            Eng
+          </div>
+          <div
+            className={language === "fr" ? "selected" : "not-selected"}
+            onClick={() => {
+              dispatch(switchLanguage("fr"));
+            }}
+          >
+            Fr
+          </div>
+          <div
+            className={language === "jap" ? "selected" : "not-selected"}
+            onClick={() => {
+              dispatch(switchLanguage("jap"));
+            }}
+          >
+            日本語
+          </div>
         </div>
-        <div
-          className={language === "fr" ? "selected" : "not-selected"}
-          onClick={() => {
-            dispatch(switchLanguage("fr"));
-          }}
-        >
-          Fr
-        </div>
-        <div
-          className={language === "jap" ? "selected" : "not-selected"}
-          onClick={() => {
-            dispatch(switchLanguage("jap"));
-          }}
-        >
-          日本語
-        </div>
+      </div>
+
+      <div
+        className="theme-switch"
+        onClick={() => {
+          dispatch(switchTheme());
+        }}
+      >
+        {theme === "black" ? (
+          <FaSun className="icon" />
+        ) : (
+          <FaMoon className="icon" />
+        )}
       </div>
     </div>
   );
