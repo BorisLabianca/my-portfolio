@@ -2,7 +2,7 @@ import { useSelector } from "react-redux";
 import profilePic from "../assets/portfolio_profile_pic.svg";
 import CVDownloadButton from "./CVDownloadButton";
 
-const Home = () => {
+const Home = ({ content }) => {
   const { classIndex } = useSelector((store) => store.navigation);
   // console.log("Home.js log : ", classIndex);
   return (
@@ -16,7 +16,9 @@ const Home = () => {
         </div>
         <div className="home-right">
           <h1 className="name">
-            Hi, I'm <span>Boris Labianca.</span> I'm a junior web developer.
+            {content.h1Beg}
+            <span>{content.h1Span}</span>
+            {content.h1End}
           </h1>
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti,

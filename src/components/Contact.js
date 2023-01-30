@@ -1,6 +1,6 @@
 import { useSelector } from "react-redux";
 
-const Contact = () => {
+const Contact = ({ content }) => {
   const { classIndex } = useSelector((store) => store.navigation);
 
   return (
@@ -9,7 +9,12 @@ const Contact = () => {
         classIndex === 4 ? "active" : ""
       }`}
     >
-      Contact
+      <div className="main-title">
+        <h2>
+          Contact <span>me</span>
+          <span className="big-text">Contact</span>
+        </h2>
+      </div>
     </div>
   );
 };

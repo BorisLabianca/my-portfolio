@@ -1,6 +1,6 @@
 import { useSelector } from "react-redux";
 
-const AboutThisSite = () => {
+const AboutThisSite = ({ content }) => {
   const { classIndex } = useSelector((store) => store.navigation);
 
   return (
@@ -9,6 +9,12 @@ const AboutThisSite = () => {
         classIndex === 3 ? "active" : ""
       }`}
     >
+      <div className="main-title">
+        <h2>
+          About <span>This site</span>
+          <span className="big-text">Used tech</span>
+        </h2>
+      </div>
       AboutThisSite icons
       <a
         target="_blank"

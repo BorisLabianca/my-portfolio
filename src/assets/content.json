@@ -1,0 +1,35 @@
+{
+  "eng": {
+    "home": {
+      "h1Beg": "Hi, I'm ",
+      "h1Span": "Boris Labianca.",
+      "h1End": " I'm a junior web developer."
+    },
+    "aboutMe": {},
+    "myPortfolio": {},
+    "aboutThisSite": {},
+    "contactMe": {}
+  },
+  "fr": {
+    "home": {
+      "h1Beg": "Bonjour, moi, c'est ",
+      "h1Span": "Boris Labianca.",
+      "h1End": " Je suis un développeur web junior."
+    },
+    "aboutMe": {},
+    "myPortfolio": {},
+    "aboutThisSite": {},
+    "contactMe": {}
+  },
+  "jap": {
+    "home": {
+      "h1Beg": "どうも。",
+      "h1Span": "ラビアンカ•ボリス",
+      "h1End": "と申します。ジュニアウェブデベロッパー"
+    },
+    "aboutMe": {},
+    "myPortfolio": {},
+    "aboutThisSite": {},
+    "contactMe": {}
+  }
+}

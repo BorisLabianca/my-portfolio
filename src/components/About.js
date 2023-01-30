@@ -14,7 +14,7 @@ import illustratorLogo from "../assets/icons8-adobe-illustrator.svg";
 import premiereLogo from "../assets/icons8-adobe-premiere-pro.svg";
 import { FaSchool } from "react-icons/fa";
 
-const About = () => {
+const About = ({ content }) => {
   const { classIndex } = useSelector((store) => store.navigation);
 
   return (

@@ -1,6 +1,6 @@
 import { useSelector } from "react-redux";
 
-const Portfolio = () => {
+const Portfolio = ({ content }) => {
   const { classIndex } = useSelector((store) => store.navigation);
 
   return (
