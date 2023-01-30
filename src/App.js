@@ -47,7 +47,7 @@ function App() {
       icon: <FaEnvelope className="icon" />,
       description: {
         eng: "Contact me",
-        fr: "Contactez-moi",
+        fr: "Me contacter",
         jap: "お問い合せ",
       },
     },
@@ -117,32 +117,30 @@ function App() {
         })}
       </div>
       <div className="language-switch">
-        <span
+        <div
           className={language === "eng" ? "selected" : "not-selected"}
           onClick={() => {
             dispatch(switchLanguage("eng"));
           }}
         >
           Eng
-        </span>
-        <span> | </span>
-        <span
+        </div>
+        <div
           className={language === "fr" ? "selected" : "not-selected"}
           onClick={() => {
             dispatch(switchLanguage("fr"));
           }}
         >
           Fr
-        </span>
-        <span> | </span>
-        <span
+        </div>
+        <div
           className={language === "jap" ? "selected" : "not-selected"}
           onClick={() => {
             dispatch(switchLanguage("jap"));
           }}
         >
           日本語
-        </span>
+        </div>
       </div>
     </div>
   );

@@ -13,10 +13,11 @@ import photoshopLogo from "../assets/icons8-adobe-photoshop.svg";
 import illustratorLogo from "../assets/icons8-adobe-illustrator.svg";
 import premiereLogo from "../assets/icons8-adobe-premiere-pro.svg";
 import { FaSchool } from "react-icons/fa";
+import ShowcasedSkill from "./ShowcasedSkill";
+import AboutBackgroundItem from "./AboutBackgroundItem";
 
 const About = ({ content }) => {
   const { classIndex } = useSelector((store) => store.navigation);
-
   return (
     <div
       className={`main-section section sec2 about ${
@@ -24,54 +25,26 @@ const About = ({ content }) => {
       }`}
     >
       <div className="main-title">
-        <h2>
-          About <span>me</span>
-          <span className="big-text">my info</span>
-        </h2>
+        <h1>
+          {content.h2Beg}
+          <span>{content.h2Span}</span>
+          <span className="big-text">{content.h2BgText}</span>
+        </h1>
       </div>
       <div className="about-container">
         <div className="about-left">
-          <h4>Information about me</h4>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit
-            quos vel quisquam, laborum fugiat accusamus ipsam, aspernatur autem,
-            dicta nisi quaerat molestiae necessitatibus voluptate totam deleniti
-            eligendi adipisci magni laboriosam. Facilis beatae, laborum quasi
-            dolorum vel a temporibus alias aliquam consequatur sed minima maxime
-            nulla sequi placeat, error architecto! Ipsum, adipisci sapiente?
-            Similique tempora magnam ullam illo fugiat sequi labore.
-          </p>
+          <h4>{content.infoTitle}</h4>
+          <p>{content.description}</p>
           <CVDownloadButton />
         </div>
         <div className="about-right">
-          <div className="about-item">
-            <div className="about-text">
-              <p className="large-text">560+</p>
-              <p className="small-text">Projects completed</p>
-            </div>
-          </div>
-          <div className="about-item">
-            <div className="about-text">
-              <p className="large-text">560+</p>
-              <p className="small-text">Projects completed</p>
-            </div>
-          </div>
-          <div className="about-item">
-            <div className="about-text">
-              <p className="large-text">560+</p>
-              <p className="small-text">Projects completed</p>
-            </div>
-          </div>
-          <div className="about-item">
-            <div className="about-text">
-              <p className="large-text">560+</p>
-              <p className="small-text">Projects completed</p>
-            </div>
-          </div>
+          {content.showcasedSkills.map((showcasedSkill, index) => {
+            return <ShowcasedSkill content={showcasedSkill} key={index} />;
+          })}
         </div>
       </div>
       <div className="about-skills">
-        <h4 className="skills-title">My skills</h4>
+        <h4 className="skills-title">{content.skillsTitle}</h4>
         <div className="skills-grid">
           <div className="skills-item">
             <img src={javascriptLogo} alt="JavaScript logo" />
@@ -154,37 +127,17 @@ const About = ({ content }) => {
         </div>
       </div>
       <div className="timeline">
-        <h4>My background</h4>
+        <h4 className="skills-title">{content.timelineTitle}</h4>
         <div className="timeline-grid">
-          <div className="timeline-item">
-            <div className="timeline-icon">
-              <FaSchool className="tl-icon" />
-            </div>
-            <p className="timeline-duration">Dec. 2022</p>
-            <h5>
-              Advanced developer training / Rocket Training
-              <span> - LeReacteur</span>
-            </h5>
-            <p>
-              One-week intensive training on advanced React hooks, Next.js 12
-              and 13, and Jest training.
-            </p>
-          </div>
-          <div className="timeline-item">
-            <div className="timeline-icon">
-              <FaSchool className="tl-icon" />
-            </div>
-            <p className="timeline-duration">Oct. 2022 - Dec. 2022</p>
-            <h5>
-              Web and mobile app developer bootcamp<span> - LeReacteur</span>
-            </h5>
-            <p>
-              10-week intensive bootcamp to become web and mobile application
-              developer. We were trained on React and React Native. Centered
-              around JavaScript, we learned to use Express.js, Axios and
-              MongoDB.
-            </p>
-          </div>
+          {content.timelineItems.map((timelineItem, index) => {
+            return (
+              <AboutBackgroundItem
+                key={index}
+                content={timelineItem}
+                icon={<FaSchool className="tl-icon" />}
+              />
+            );
+          })}
         </div>
       </div>
     </div>

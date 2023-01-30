@@ -1,4 +1,6 @@
 import { useSelector } from "react-redux";
+import { FaGithub } from "react-icons/fa";
+import { SiNetlify } from "react-icons/si";
 
 const Portfolio = ({ content }) => {
   const { classIndex } = useSelector((store) => store.navigation);
@@ -10,17 +12,45 @@ const Portfolio = ({ content }) => {
       }`}
     >
       <div className="main-title">
-        <h2>
-          My <span>Portfolio</span>
-          <span className="big-text">my work</span>
-        </h2>
+        <h1>
+          {content.h2Beg}
+          <span>{content.h2Span}</span>
+          <span className="big-text">{content.h2BgText}</span>
+        </h1>
       </div>
       <p className="portfolio-text">
         Here are the projects I have done during the bootcamp and after.
       </p>
-      <div className="portfolio">
+      <div className="portfolio-container">
         <div className="portfolio-item">
-          <div className="portfolio-image">1:45:06</div>
+          <div className="portfolio-image">
+            <img
+              src="https://res.cloudinary.com/dbe27rnpk/image/upload/v1675094907/portfolio/Capture_d_e%CC%81cran_2023-01-05_a%CC%80_14.11.55_gxdxrj.png"
+              alt="Screenshot of main page"
+            />
+            <div className="hover-item">
+              <h3>Project source</h3>
+              <div className="link-icons">
+                <a
+                  href="https://github.com/BorisLabianca/happycow-web"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="link-icon"
+                >
+                  <FaGithub />
+                </a>
+                <a
+                  href="https://boris-labianca-happycow.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="link-icon"
+                >
+                  <SiNetlify />
+                </a>
+              </div>
+            </div>
+          </div>
+          <h3>HappyCow Clone</h3>
         </div>
       </div>
     </div>

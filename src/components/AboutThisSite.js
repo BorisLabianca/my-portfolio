@@ -10,10 +10,11 @@ const AboutThisSite = ({ content }) => {
       }`}
     >
       <div className="main-title">
-        <h2>
-          About <span>This site</span>
-          <span className="big-text">Used tech</span>
-        </h2>
+        <h1>
+          {content.h2Beg}
+          <span>{content.h2Span}</span>
+          <span className="big-text">{content.h2BgText}</span>
+        </h1>
       </div>
       AboutThisSite icons
       <a

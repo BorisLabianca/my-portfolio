@@ -15,11 +15,11 @@ const Home = ({ content }) => {
           </div>
         </div>
         <div className="home-right">
-          <h1 className="name">
+          <div className="name">
             {content.h1Beg}
             <span>{content.h1Span}</span>
             {content.h1End}
-          </h1>
+          </div>
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti,
             doloremque esse! Tenetur veritatis aut, tempore deserunt id rem quo

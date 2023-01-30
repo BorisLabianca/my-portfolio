@@ -3,33 +3,148 @@
     "home": {
       "h1Beg": "Hi, I'm ",
       "h1Span": "Boris Labianca.",
-      "h1End": " I'm a junior web developer."
+      "h1End": " I'm a junior web developer.",
+      "bio": ""
     },
-    "aboutMe": {},
-    "myPortfolio": {},
-    "aboutThisSite": {},
-    "contactMe": {}
+    "aboutMe": {
+      "h2Beg": "About ",
+      "h2Span": "me",
+      "h2BgText": "my info",
+      "infoTitle": "Information about me",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit quos vel quisquam, laborum fugiat accusamus ipsam, aspernatur autem, dicta nisi quaerat molestiae necessitatibus voluptate totam deleniti eligendi adipisci magni laboriosam. Facilis beatae, laborum quasi dolorum vel a temporibus alias aliquam consequatur sed minima maxime nulla sequi placeat, error architecto! Ipsum, adipisci sapiente? Similique tempora magnam ullam illo fugiat sequi labore.",
+      "showcasedSkills": [
+        { "largeText": "3", "smallText": "spoken languages" },
+        { "largeText": "10+", "smallText": "years curriculum development" },
+        { "largeText": "15+", "smallText": "years working abroad" },
+        { "largeText": "15+", "smallText": "years teaching" }
+      ],
+      "skillsTitle": "My skills",
+      "timelineTitle": "My background",
+      "timelineItems": [
+        {
+          "timelineDuration": "Dec. 2022",
+          "h5Beg": "Advanced developer training / Rocket Training",
+          "h5Span": " - LeReacteur",
+          "description": "One-week intensive training on advanced React hooks, Next.js 12 and 13, and Jest training."
+        },
+        {
+          "timelineDuration": "Oct. 2022 - Dec. 2022",
+          "h5Beg": "Web and mobile app developer bootcamp",
+          "h5Span": " - LeReacteur",
+          "description": "10-week intensive bootcamp to become web and mobile application developer. We were trained on React and React Native. Centered around JavaScript, we learned to use Express.js, Axios and MongoDB."
+        }
+      ]
+    },
+    "myPortfolio": {
+      "h2Beg": "My ",
+      "h2Span": "Portfolio",
+      "h2BgText": "My work"
+    },
+    "aboutThisSite": {
+      "h2Beg": "About ",
+      "h2Span": "This site",
+      "h2BgText": "What tech"
+    },
+    "contactMe": { "h2Beg": "Contact ", "h2Span": "Me", "h2BgText": "Contact" }
   },
   "fr": {
     "home": {
       "h1Beg": "Bonjour, moi, c'est ",
       "h1Span": "Boris Labianca.",
-      "h1End": " Je suis un développeur web junior."
+      "h1End": " Je suis un développeur web junior.",
+      "bio": ""
     },
-    "aboutMe": {},
-    "myPortfolio": {},
-    "aboutThisSite": {},
-    "contactMe": {}
+    "aboutMe": {
+      "h2Beg": "À ",
+      "h2Span": "mon sujet",
+      "h2BgText": "présentation",
+      "infoTitle": "Informations sur moi",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit quos vel quisquam, laborum fugiat accusamus ipsam, aspernatur autem, dicta nisi quaerat molestiae necessitatibus voluptate totam deleniti eligendi adipisci magni laboriosam. Facilis beatae, laborum quasi dolorum vel a temporibus alias aliquam consequatur sed minima maxime nulla sequi placeat, error architecto! Ipsum, adipisci sapiente? Similique tempora magnam ullam illo fugiat sequi labore.",
+      "showcasedSkills": [
+        { "largeText": "3", "smallText": "langues parlées" },
+        { "largeText": "10+", "smallText": "années de conception pédagogique" },
+        { "largeText": "15+", "smallText": "années de travail à l'étranger" },
+        { "largeText": "15+", "smallText": "années en tant qu'enseignant" }
+      ],
+      "skillsTitle": "Compétences",
+      "timelineTitle": "Mon parcours de dev",
+      "timelineItems": [
+        {
+          "timelineDuration": "Déc. 2022",
+          "h5Beg": "Formation professionnelle - Rocket Training",
+          "h5Span": " - LeReacteur",
+          "description": "1 semaine de formation intensive sur les hooks avancés de React, Next.js 12 et 13, et Jest."
+        },
+        {
+          "timelineDuration": "Oct. 2022 - Déc. 2022",
+          "h5Beg": "Formation accélérée de Développeur web & Mobile",
+          "h5Span": " - LeReacteur",
+          "description": "Bootcamp de 10 semaines intensives pour devenir développeur web et mobile. La formation nous prépare à utiliser React et React Native. Centrée autour du langage JavaScript, nous avons appris à travailler, entre autre, avec Express.js, Axios et MongoDB."
+        }
+      ]
+    },
+    "myPortfolio": {
+      "h2Beg": "Mon ",
+      "h2Span": "Portfolio",
+      "h2BgText": "Mes projets"
+    },
+    "aboutThisSite": {
+      "h2Beg": "À PROPOS ",
+      "h2Span": "DU SITE",
+      "h2BgText": "Les spécs"
+    },
+    "contactMe": {
+      "h2Beg": "Me ",
+      "h2Span": "contacter",
+      "h2BgText": "contact"
+    }
   },
   "jap": {
     "home": {
       "h1Beg": "どうも。",
       "h1Span": "ラビアンカ•ボリス",
-      "h1End": "と申します。ジュニアウェブデベロッパー"
+      "h1End": "と申します。ジュニアウェブデベロッパー",
+      "bio": ""
     },
-    "aboutMe": {},
-    "myPortfolio": {},
-    "aboutThisSite": {},
-    "contactMe": {}
+    "aboutMe": {
+      "h2Beg": "プロ",
+      "h2Span": "フィール",
+      "h2BgText": "僕に付いて",
+      "infoTitle": "自己紹介",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit quos vel quisquam, laborum fugiat accusamus ipsam, aspernatur autem, dicta nisi quaerat molestiae necessitatibus voluptate totam deleniti eligendi adipisci magni laboriosam. Facilis beatae, laborum quasi dolorum vel a temporibus alias aliquam consequatur sed minima maxime nulla sequi placeat, error architecto! Ipsum, adipisci sapiente? Similique tempora magnam ullam illo fugiat sequi labore.",
+      "showcasedSkills": [
+        { "largeText": "3", "smallText": "言語が話する" },
+        { "largeText": "10+", "smallText": "年間の海外で仕事の経験" },
+        { "largeText": "15+", "smallText": "年間の言語学カリクラム開発の経験" },
+        { "largeText": "15+", "smallText": "年間のフランス語教師の経験" }
+      ],
+      "skillsTitle": "スキル",
+      "timelineTitle": "ウェブデベロッパーの経歴",
+      "timelineItems": [
+        {
+          "timelineDuration": "Dec. 2022",
+          "h5Beg": "Advanced developer training / Rocket Training",
+          "h5Span": " - LeReacteur",
+          "description": "One-week intensive training on advanced React hooks, Next.js 12 and 13, and Jest training."
+        },
+        {
+          "timelineDuration": "Oct. 2022 - Dec. 2022",
+          "h5Beg": "Web and mobile app developer bootcamp",
+          "h5Span": " - LeReacteur",
+          "description": "10-week intensive bootcamp to become web and mobile application developer. We were trained on React and React Native. Centered around JavaScript, we learned to use Express.js, Axios and MongoDB."
+        }
+      ]
+    },
+    "myPortfolio": {
+      "h2Beg": "制作",
+      "h2Span": "実績",
+      "h2BgText": "僕の制作"
+    },
+    "aboutThisSite": {
+      "h2Beg": "サイト",
+      "h2Span": "に付いて",
+      "h2BgText": "仕様"
+    },
+    "contactMe": { "h2Beg": "お問い", "h2Span": "合せ", "h2BgText": "連絡頂戴" }
   }
 }
