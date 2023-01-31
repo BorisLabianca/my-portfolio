@@ -45,7 +45,22 @@
       "h2Span": "This site",
       "h2BgText": "What tech"
     },
-    "contactMe": { "h2Beg": "Contact ", "h2Span": "Me", "h2BgText": "Contact" }
+    "contactMe": {
+      "h2Beg": "Contact ",
+      "h2Span": "Me",
+      "h2BgText": "Contact",
+      "fullName": "Full Name",
+      "fullNamePlaceholder": "First and Last",
+      "emailAddress": "Email Address",
+      "emailAddressPlaceholder": "email@domain.com",
+      "subject": "Subject",
+      "subjectPlaceholder": "Please, enter a subject",
+      "message": "Message",
+      "messagePlaceholder": "Your message",
+      "submitBtn": "Submit",
+      "findMeOn": "You can also find me on:",
+      "required": " *"
+    }
   },
   "fr": {
     "home": {
@@ -96,7 +111,18 @@
     "contactMe": {
       "h2Beg": "Me ",
       "h2Span": "contacter",
-      "h2BgText": "contact"
+      "h2BgText": "contact",
+      "fullName": "Nom complet",
+      "fullNamePlaceholder": "Prénom et nom",
+      "emailAddress": "Adresse e-mail",
+      "emailAddressPlaceholder": "email@domain.com",
+      "subject": "Objet",
+      "subjectPlaceholder": "Veuillez entrez un objet",
+      "message": "Message",
+      "messagePlaceholder": "Votre message",
+      "submitBtn": "Envoyer",
+      "findMeOn": "Vous pouvez aussi me trouver sur :",
+      "required": " *"
     }
   },
   "jap": {
@@ -145,6 +171,21 @@
       "h2Span": "に付いて",
       "h2BgText": "仕様"
     },
-    "contactMe": { "h2Beg": "お問い", "h2Span": "合せ", "h2BgText": "連絡頂戴" }
+    "contactMe": {
+      "h2Beg": "お問い",
+      "h2Span": "合せ",
+      "h2BgText": "連絡頂戴",
+      "fullName": "氏名",
+      "fullNamePlaceholder": "名前と名字",
+      "emailAddress": "メールアドレス",
+      "emailAddressPlaceholder": "email@domain.com",
+      "subject": "件名",
+      "subjectPlaceholder": "件名を入力して下さい",
+      "message": "本文",
+      "messagePlaceholder": "お問い合せ内容",
+      "submitBtn": "送信",
+      "findMeOn": "その他",
+      "required": "（必須）"
+    }
   }
 }

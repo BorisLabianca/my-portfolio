@@ -1,8 +1,16 @@
 import { useSelector } from "react-redux";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 const Contact = ({ content }) => {
   const { classIndex } = useSelector((store) => store.navigation);
-
+  const clearForm = () => {
+    window.onbeforeunload = () => {
+      for (const form of document.getElementsByTagName("form")) {
+        form.reset();
+      }
+    };
+  };
+  clearForm();
   return (
     <div
       className={`main-section section sec5 contact ${
@@ -18,8 +26,7 @@ const Contact = ({ content }) => {
           </h1>
         </div>
         <div className="contact-content-container">
-          <h2>Feel free to contact me</h2>
-          <form className="contact-form">
+          {/* <form className="contact-form">
             <div className="input-control">
               <input type="text" required placeholder="Your full name" />
               <input type="email" required placeholder="Your email" />
@@ -41,7 +48,95 @@ const Contact = ({ content }) => {
                 required
               ></textarea>
             </div>
+          </form> */}
+          <form
+            id="fs-frm"
+            name="simple-contact-form"
+            acceptCharset="utf-8"
+            action="https://formspree.io/f/xzbqdaqr"
+            method="post"
+            className="contact-form"
+          >
+            <fieldset id="fs-frm-inputs">
+              <div className="input-control">
+                <div className="name-input">
+                  <label htmlFor="full-name">
+                    {content.fullName}
+                    <span className="required">{content.required}</span>
+                  </label>
+                  <input
+                    type="text"
+                    name="name"
+                    id="full-name"
+                    placeholder={content.fullNamePlaceholder}
+                    required
+                  />
+                </div>
+                <div className="email-input">
+                  <label htmlFor="email-address">
+                    {content.emailAddress}
+                    <span className="required">{content.required}</span>
+                  </label>
+                  <input
+                    type="email"
+                    name="_replyto"
+                    id="email-address"
+                    placeholder={content.emailAddressPlaceholder}
+                    required
+                  />
+                </div>
+              </div>
+              <div className="input-control">
+                <div className="subject-input">
+                  <label htmlFor="subject">
+                    {content.subject}
+                    <span className="required">{content.required}</span>
+                  </label>
+                  <input
+                    name="subject"
+                    placeholder={content.subjectPlaceholder}
+                    required
+                  />
+                </div>
+              </div>
+
+              <div className="input-control">
+                <div className="message-input">
+                  <label htmlFor="message">
+                    {content.message}
+                    <span className="required">{content.required}</span>
+                  </label>
+                  <textarea
+                    rows="8"
+                    name="message"
+                    id="message"
+                    placeholder={content.messagePlaceholder}
+                    required
+                  ></textarea>
+                </div>
+              </div>
+              <input
+                type="hidden"
+                name="_subject"
+                id="email-subject"
+                value="Contact Form Submission"
+              />
+            </fieldset>
+            <input
+              type="submit"
+              value={content.submitBtn}
+              className="submit-btn"
+            />
           </form>
+          <h2>{content.findMeOn}</h2>
+          <div className="contact-links">
+            <a href="https://github.com/BorisLabianca">
+              <FaGithub className="contact-icon" />
+            </a>
+            <a href="https://www.linkedin.com/in/boris-labianca-01a52871/">
+              <FaLinkedin className="contact-icon" />
+            </a>
+          </div>
         </div>
       </div>
     </div>
