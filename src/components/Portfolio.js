@@ -17,7 +17,7 @@ const Portfolio = ({ content }) => {
           <span className="big-text">{content.h2BgText}</span>
         </h1>
       </div>
-      <p className="portfolio-text">{content.portfolioText}</p>
+      <h3 className="portfolio-text">{content.portfolioText}</h3>
       <div className="portfolio-container">
         {content.portfolioItems.map((portfolioItem, index) => {
           return <PortfolioItemCard key={index} content={portfolioItem} />;

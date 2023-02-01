@@ -3,7 +3,7 @@
     "home": {
       "h1Beg": "Hi, I'm ",
       "h1Span": "Boris Labianca.",
-      "h1End": " I'm a junior web developer.",
+      "h1End": " I'm a junior full-stack JavaScript developer.",
       "bio": ""
     },
     "aboutMe": {
@@ -79,14 +79,21 @@
           "hoverH3": "Project sources & site",
           "githubLinkBack": "https://github.com/BorisLabianca/deliveroo-backend",
           "githubLinkFront": "https://github.com/BorisLabianca/deliveroo-frontend",
-          "netlifyLink": "https://boris-labianca-vinted.netlify.app/"
+          "netlifyLink": ""
         }
       ]
     },
     "aboutThisSite": {
       "h2Beg": "About ",
       "h2Span": "This site",
-      "h2BgText": "What tech"
+      "h2BgText": "What tech",
+      "siteOriginTitle": "The concept behind this site",
+      "conceptDescription": "I wanted to build a single-page portfolio but I didn't want the user to have to scroll down forever to reach its bottom. I could have used links to the different sections but it wasn't what I wanted. So I opted for a mix between a single-page site and a site with different pages by using slide-like sections which also gave me the opportunity to apply my newly acquired knowledge about Redux Toolkit. I wanted to showcase other skills of mine and I thought having the ability to toggle languages would be a nice finishing touch. I had a lot of fun making it and I learned a few more tricks on the way. I hope you like the end result. If you have any comments, see any mistakes, please, feel free to send me a message on the contact page or you can reach out to me directly on my LinkedIn profile. You can also see the code of this portfolio on Github. Thank you for visiting my portfolio.",
+      "techStackTitle": "This portfolio was made using:",
+      "stackItem1": "React.js",
+      "stackItem2": "Redux Toolkit",
+      "stackItem3": "Formspree",
+      "credits": "Icons credits"
     },
     "contactMe": {
       "h2Beg": "Contact ",
@@ -109,7 +116,7 @@
     "home": {
       "h1Beg": "Bonjour, moi, c'est ",
       "h1Span": "Boris Labianca.",
-      "h1End": " Je suis un développeur web junior.",
+      "h1End": " Je suis un développeur full-stack JavaScript junior.",
       "bio": ""
     },
     "aboutMe": {
@@ -178,13 +185,28 @@
           "githubLinkBack": "https://github.com/BorisLabianca/Vinted-Mockup",
           "githubLinkFront": "https://github.com/BorisLabianca/vinted-front",
           "netlifyLink": "https://boris-labianca-vinted.netlify.app/"
+        },
+        {
+          "title": "Réplique du panier de Deliveroo",
+          "img": "https://res.cloudinary.com/dbe27rnpk/image/upload/v1675271822/portfolio/Capture_d_e%CC%81cran_2023-02-01_a%CC%80_18.10.44_bqhbpa.png",
+          "hoverH3": "Sources du projet et site",
+          "githubLinkBack": "https://github.com/BorisLabianca/deliveroo-backend",
+          "githubLinkFront": "https://github.com/BorisLabianca/deliveroo-frontend",
+          "netlifyLink": ""
         }
       ]
     },
     "aboutThisSite": {
       "h2Beg": "À PROPOS ",
       "h2Span": "DU SITE",
-      "h2BgText": "Les spécs"
+      "h2BgText": "Les spécs",
+      "siteOriginTitle": "Le concept derrière ce site",
+      "conceptDescription": "Je souhaitais faire un site en une seule page mais je ne voulais pas que les utilisateurs aient à faire défiler la page vers le bas indéfiniment. J'aurais pu utiliser des liens internes vers chaque section du site mais ce n'était pas non plus le rendu que je souhaitais avoir. J'ai donc opté pour un compromis entre un site d'une seule page et un site à pages multiples en jouant avec les sections commes des calques, ce qui m'a donné l'opportunité de mettre en pratique les notions nouvellement acquises sur Redux Toolkit. Je désirais également mettre en valeur d'autres de mes compétences et j'ai donc pensé que la possibilité de changer de langue serait la fonctionnalité idéale. J'ai pris beaucoup de plaisir à réaliser ce site et j'ai également appris quelques nouvelles choses en le développant. J'espère que vous apprécierez le résultat. Si vous avez des commentaires ou voyez des erreurs, n'hésitez pas à me contacter sur la page de contact ou vous pouvez me joindre sur mon profil LinkedIn. Vous pouvez aussi retrouver le code source sur Github. Merci d'avoir visité mon portfolio.",
+      "techStackTitle": "Ce portfolio a été réalisé avec :",
+      "stackItem1": "React.js",
+      "stackItem2": "Redux Toolkit",
+      "stackItem3": "Formspree",
+      "credits": "Info sur les icônes utilisées"
     },
     "contactMe": {
       "h2Beg": "Me ",
@@ -207,7 +229,7 @@
     "home": {
       "h1Beg": "どうも。",
       "h1Span": "ラビアンカ•ボリス",
-      "h1End": "と申します。ジュニアウェブデベロッパー",
+      "h1End": "と申します。ジュニアフルスタックウェブデベロッパーです。",
       "bio": ""
     },
     "aboutMe": {
@@ -227,15 +249,15 @@
       "timelineItems": [
         {
           "timelineDuration": "Dec. 2022",
-          "h5Beg": "Advanced developer training / Rocket Training",
+          "h5Beg": "高度なデベロッパートレーニング / Rocket Training",
           "h5Span": " - LeReacteur",
-          "description": "One-week intensive training on advanced React hooks, Next.js 12 and 13, and Jest training."
+          "description": "高度な React フック、Next.js 12 および 13、Jest トレーニングに関する1週間の集中トレーニング。"
         },
         {
           "timelineDuration": "Oct. 2022 - Dec. 2022",
-          "h5Beg": "Web and mobile app developer bootcamp",
+          "h5Beg": "ウェブとモバイルアプリのデベロッパーブートキャップ",
           "h5Span": " - LeReacteur",
-          "description": "10-week intensive bootcamp to become web and mobile application developer. We were trained on React and React Native. Centered around JavaScript, we learned to use Express.js, Axios and MongoDB."
+          "description": "ウェブおよびモバイル アプリケーションの開発者になるための10週間の集中ブートキャンプ。 React と React Native のトレーニングを受けました。 JavaScript を中心に、Express.js、Axios、MongoDB の使い方を学びました。"
         }
       ]
     },
@@ -276,13 +298,28 @@
           "githubLinkBack": "https://github.com/BorisLabianca/Vinted-Mockup",
           "githubLinkFront": "https://github.com/BorisLabianca/vinted-front",
           "netlifyLink": "https://boris-labianca-vinted.netlify.app/"
+        },
+        {
+          "title": "Deliverooのショッピングカート",
+          "img": "https://res.cloudinary.com/dbe27rnpk/image/upload/v1675271822/portfolio/Capture_d_e%CC%81cran_2023-02-01_a%CC%80_18.10.44_bqhbpa.png",
+          "hoverH3": "Githubとサイトのリンク",
+          "githubLinkBack": "https://github.com/BorisLabianca/deliveroo-backend",
+          "githubLinkFront": "https://github.com/BorisLabianca/deliveroo-frontend",
+          "netlifyLink": ""
         }
       ]
     },
     "aboutThisSite": {
       "h2Beg": "サイト",
       "h2Span": "に付いて",
-      "h2BgText": "仕様"
+      "h2BgText": "仕様",
+      "siteOriginTitle": "このサイトの作成の考え方",
+      "conceptDescription": "単一ページのポートフォリオを作成したかったのですが、ユーザーが最下部に到達するまでずっと下にスクロールしなければならないようにしたくありませんでした。別のセクションへのリンクを使用することもできましたが、それは望んでいたものではありませんでした。そこで、スライドのようなセクションを使用して、単一ページのサイトと異なるページのサイトを組み合わせることを選択しました。これにより、Redux Toolkit について新たに習得した知識を適用する機会も得られました。自分の他のスキルを披露したかったので、言語を切り替えることができれば素晴らしい仕上げになると思いました。作るのはとても楽しかったし、途中でさらにいくつかのトリックを学びました.最終結果が気に入っていただければ幸いです。コメントや間違いがあれば、お気軽に連絡先ページからメッセージをお送りいただくか、LinkedIn プロフィールから直接ご連絡ください。このポートフォリオのコードは、Github でも見ることができます。僕のポートフォリオをご覧いただきありがとうございます。",
+      "techStackTitle": "このポートフォリオは以下を使用して作成しました。",
+      "stackItem1": "React.js",
+      "stackItem2": "Redux Toolkit",
+      "stackItem3": "Formspree",
+      "credits": "アイコンクレジット"
     },
     "contactMe": {
       "h2Beg": "お問い",

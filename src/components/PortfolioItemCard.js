@@ -33,7 +33,7 @@ const PortfolioItemCard = ({ content }) => {
               </a>
               <p>Front</p>
             </div>
-            {content.githubLinkBack && (
+            {content.netlifyLink && (
               <div className="link-icon-and-title">
                 <a
                   href={content.netlifyLink}

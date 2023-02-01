@@ -7,7 +7,7 @@ const AboutBackgroundItem = ({ icon, content }) => {
         {content.h5Beg}
         <span>{content.h5Span}</span>
       </h5>
-      <p>{content.description}</p>
+      <p className="timeline-item-description">{content.description}</p>
     </div>
   );
 };
