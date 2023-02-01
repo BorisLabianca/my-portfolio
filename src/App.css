@@ -16,8 +16,9 @@
   --color-grey-5: #2a2e35;
   --color-grey-6: #12181b;
   --br-sm-2: 14px;
-  --box-shadow-1: 1px 2px 5px rgba(200, 200, 200, 0.15);
-  --box-shadow-2: 1px 4px 15px rgba(200, 200, 200, 0.32);
+  --box-shadow-1: 1px 2px 5px rgba(220, 220, 220, 0.15);
+  --box-shadow-2: 1px 4px 15px rgba(220, 220, 220, 0.32);
+  --box-shadow-3: 1px 2px 6px rgba(135, 215, 255, 0.8);
 }
 .light-mode {
   --color-primary: #ffffff;
@@ -33,6 +34,7 @@
   --color-grey-6: #12181b;
   --box-shadow-1: 1px 2px 5px rgba(0, 0, 0, 0.15);
   --box-shadow-2: 1px 4px 15px rgba(0, 0, 0, 0.32);
+  --box-shadow-3: 1px 2px 5px rgba(0, 0, 0, 0.25);
 }
 body {
   background-color: transparent;
@@ -53,7 +55,7 @@ a {
 }
 main {
   background-color: var(--color-primary);
-  height: 100vh;
+  min-height: 100vh;
 }
 .home {
   height: 100vh;
@@ -66,11 +68,11 @@ main {
   margin: 0 auto;
   padding: 3rem 0;
 }
-.section {
+/* .section {
   transform: translateY(-100%) scaleY(0);
   transition: all 0.4s ease-in-out;
   background-color: var(--color-primary);
-}
+} */
 .sec1 {
   display: none;
   transform: translateY(0) scaleY(1);
@@ -328,18 +330,20 @@ main {
 
 /* Home style */
 .home-content {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  display: flex;
   height: 100%;
+  width: 100%;
 }
 .home-left {
   display: flex;
   align-items: center;
   position: relative;
+  flex: 1;
+  height: 100%;
 }
 .home-shape {
   transition: all 0.4s ease-in-out;
-  width: 65%;
+  width: 100%;
   height: 100%;
   background-color: var(--color-secondary);
   position: absolute;
@@ -347,8 +351,8 @@ main {
   top: 0;
   z-index: -1;
   /* clip-path: polygon(0 0, 46% 0, 79% 100%, 0% 100%); */
-  clip-path: circle(61% at 0 50%);
-  /* clip-path: ellipse(40% 50% at 0% 50%); */
+  /* clip-path: circle(56.4% at 0 50%); */
+  clip-path: ellipse(40% 50% at 0% 50%);
 }
 .home-left .image {
   width: 68%;
@@ -365,6 +369,7 @@ main {
   flex-direction: column;
   justify-content: center;
   padding-right: 17rem;
+  flex: 1;
 }
 .name {
   font-size: 3rem;
@@ -626,10 +631,11 @@ h5 span {
 .portfolio-image {
   position: relative;
   margin-bottom: 1.5rem;
-  height: 212.02px;
+  height: 236px;
   width: 100%;
   border-radius: 8px;
   overflow: hidden;
+  box-shadow: var(--box-shadow-3);
 }
 .portfolio-item img {
   width: 100%;
@@ -683,6 +689,15 @@ h3 {
 .portfolio-image:hover .hover-item {
   opacity: 1;
   transform: scaleY(1);
+}
+.link-icon-and-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 8px;
+}
+.link-icon-and-title p {
+  text-align: center;
 }
 
 /* Contact Me Style */
@@ -769,24 +784,26 @@ textarea {
 
 @media screen and (max-width: 600px) {
   main {
-    height: 120vh;
+    min-height: 120vh;
   }
   .main-section {
     padding: 4.5rem 0;
   }
   .home {
     overflow: visible;
-    height: 100%;
+    height: calc(100% + 80px);
   }
   .home-content {
     display: flex;
     flex-direction: column;
+    height: 100%;
   }
   .home-left .image {
     margin: 20px 4rem;
   }
   .home-right {
-    padding: 0 20px;
+    padding: 0 20px 100px;
+    height: 100%;
   }
   .name {
     font-size: 2rem;

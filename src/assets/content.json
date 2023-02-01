@@ -38,7 +38,50 @@
     "myPortfolio": {
       "h2Beg": "My ",
       "h2Span": "Portfolio",
-      "h2BgText": "My work"
+      "h2BgText": "My work",
+      "portfolioText": "Here are the projects I have done during the bootcamp and after.",
+      "portfolioItems": [
+        {
+          "title": "HappyCow Replica",
+          "img": "https://res.cloudinary.com/dbe27rnpk/image/upload/v1675260158/portfolio/Capture_d_e%CC%81cran_2023-02-01_a%CC%80_15.02.03_z6dtxl.png",
+          "hoverH3": "Project sources & site",
+          "githubLinkBack": "https://github.com/BorisLabianca/happycow-back",
+          "githubLinkFront": "https://github.com/BorisLabianca/happycow-web",
+          "netlifyLink": "https://boris-labianca-happycow.netlify.app/"
+        },
+        {
+          "title": "Airbnb app replica",
+          "img": "https://res.cloudinary.com/dbe27rnpk/image/upload/v1675269141/portfolio/Artboard_1_xmshky.png",
+          "hoverH3": "Project sources & site",
+          "githubLinkBack": "",
+          "githubLinkFront": "https://github.com/BorisLabianca/airbnb-app",
+          "netlifyLink": ""
+        },
+        {
+          "title": "Marvel inspired site",
+          "img": "https://res.cloudinary.com/dbe27rnpk/image/upload/v1675264883/portfolio/Capture_d_e%CC%81cran_2023-02-01_a%CC%80_16.20.58_apyssr.png",
+          "hoverH3": "Project sources & site",
+          "githubLinkBack": "https://github.com/BorisLabianca/marvel-backend",
+          "githubLinkFront": "https://github.com/BorisLabianca/marvel-frontend",
+          "netlifyLink": "https://boris-labianca-marvel.netlify.app/"
+        },
+        {
+          "title": "Vinted Replica",
+          "img": "https://res.cloudinary.com/dbe27rnpk/image/upload/v1675261782/portfolio/Capture_d_e%CC%81cran_2023-02-01_a%CC%80_15.29.16_euwnaq.png",
+          "hoverH3": "Project sources & site",
+          "githubLinkBack": "https://github.com/BorisLabianca/Vinted-Mockup",
+          "githubLinkFront": "https://github.com/BorisLabianca/vinted-front",
+          "netlifyLink": "https://boris-labianca-vinted.netlify.app/"
+        },
+        {
+          "title": "Deliveroo Shopping Cart Replica",
+          "img": "https://res.cloudinary.com/dbe27rnpk/image/upload/v1675271822/portfolio/Capture_d_e%CC%81cran_2023-02-01_a%CC%80_18.10.44_bqhbpa.png",
+          "hoverH3": "Project sources & site",
+          "githubLinkBack": "https://github.com/BorisLabianca/deliveroo-backend",
+          "githubLinkFront": "https://github.com/BorisLabianca/deliveroo-frontend",
+          "netlifyLink": "https://boris-labianca-vinted.netlify.app/"
+        }
+      ]
     },
     "aboutThisSite": {
       "h2Beg": "About ",
@@ -101,7 +144,42 @@
     "myPortfolio": {
       "h2Beg": "Mon ",
       "h2Span": "Portfolio",
-      "h2BgText": "Mes projets"
+      "h2BgText": "Mes projets",
+      "portfolioText": "Voici mes projets réalisés pendant et après la formation.",
+      "portfolioItems": [
+        {
+          "title": "Réplique du site HappyCow",
+          "img": "https://res.cloudinary.com/dbe27rnpk/image/upload/v1675260158/portfolio/Capture_d_e%CC%81cran_2023-02-01_a%CC%80_15.02.03_z6dtxl.png",
+          "hoverH3": "Sources du projet et site",
+          "githubLinkBack": "https://github.com/BorisLabianca/happycow-back",
+          "githubLinkFront": "https://github.com/BorisLabianca/happycow-web",
+          "netlifyLink": "https://boris-labianca-happycow.netlify.app/"
+        },
+        {
+          "title": "Réplique de l'appli Airbnb",
+          "img": "https://res.cloudinary.com/dbe27rnpk/image/upload/v1675269141/portfolio/Artboard_1_xmshky.png",
+          "hoverH3": "Sources du projet et site",
+          "githubLinkBack": "",
+          "githubLinkFront": "https://github.com/BorisLabianca/airbnb-app",
+          "netlifyLink": ""
+        },
+        {
+          "title": "Site inspiré de Marvel",
+          "img": "https://res.cloudinary.com/dbe27rnpk/image/upload/v1675264883/portfolio/Capture_d_e%CC%81cran_2023-02-01_a%CC%80_16.20.58_apyssr.png",
+          "hoverH3": "Sources du projet et site",
+          "githubLinkBack": "https://github.com/BorisLabianca/marvel-backend",
+          "githubLinkFront": "https://github.com/BorisLabianca/marvel-frontend",
+          "netlifyLink": "https://boris-labianca-marvel.netlify.app/"
+        },
+        {
+          "title": "Réplique du site Vinted",
+          "img": "https://res.cloudinary.com/dbe27rnpk/image/upload/v1675261782/portfolio/Capture_d_e%CC%81cran_2023-02-01_a%CC%80_15.29.16_euwnaq.png",
+          "hoverH3": "Sources du projet et site",
+          "githubLinkBack": "https://github.com/BorisLabianca/Vinted-Mockup",
+          "githubLinkFront": "https://github.com/BorisLabianca/vinted-front",
+          "netlifyLink": "https://boris-labianca-vinted.netlify.app/"
+        }
+      ]
     },
     "aboutThisSite": {
       "h2Beg": "À PROPOS ",
@@ -164,7 +242,42 @@
     "myPortfolio": {
       "h2Beg": "制作",
       "h2Span": "実績",
-      "h2BgText": "僕の制作"
+      "h2BgText": "僕の制作",
+      "portfolioText": "こちらは僕の制作。",
+      "portfolioItems": [
+        {
+          "title": "HappyCowの副製品",
+          "img": "https://res.cloudinary.com/dbe27rnpk/image/upload/v1675260158/portfolio/Capture_d_e%CC%81cran_2023-02-01_a%CC%80_15.02.03_z6dtxl.png",
+          "hoverH3": "Githubとサイトのリンク",
+          "githubLinkBack": "https://github.com/BorisLabianca/happycow-back",
+          "githubLinkFront": "https://github.com/BorisLabianca/happycow-web",
+          "netlifyLink": "https://boris-labianca-happycow.netlify.app/"
+        },
+        {
+          "title": "Airbnbアプリの副製品",
+          "img": "https://res.cloudinary.com/dbe27rnpk/image/upload/v1675269141/portfolio/Artboard_1_xmshky.png",
+          "hoverH3": "Githubとサイトのリンク",
+          "githubLinkBack": "",
+          "githubLinkFront": "https://github.com/BorisLabianca/airbnb-app",
+          "netlifyLink": ""
+        },
+        {
+          "title": "Marvel人物とコミックのサイト",
+          "img": "https://res.cloudinary.com/dbe27rnpk/image/upload/v1675264883/portfolio/Capture_d_e%CC%81cran_2023-02-01_a%CC%80_16.20.58_apyssr.png",
+          "hoverH3": "Githubとサイトのリンク",
+          "githubLinkBack": "https://github.com/BorisLabianca/marvel-backend",
+          "githubLinkFront": "https://github.com/BorisLabianca/marvel-frontend",
+          "netlifyLink": "https://boris-labianca-marvel.netlify.app/"
+        },
+        {
+          "title": "Vintedの副製品",
+          "img": "https://res.cloudinary.com/dbe27rnpk/image/upload/v1675261782/portfolio/Capture_d_e%CC%81cran_2023-02-01_a%CC%80_15.29.16_euwnaq.png",
+          "hoverH3": "Githubとサイトのリンク",
+          "githubLinkBack": "https://github.com/BorisLabianca/Vinted-Mockup",
+          "githubLinkFront": "https://github.com/BorisLabianca/vinted-front",
+          "netlifyLink": "https://boris-labianca-vinted.netlify.app/"
+        }
+      ]
     },
     "aboutThisSite": {
       "h2Beg": "サイト",

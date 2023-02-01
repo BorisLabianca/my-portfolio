@@ -1,6 +1,5 @@
 import { useSelector } from "react-redux";
-import { FaGithub } from "react-icons/fa";
-import { SiNetlify } from "react-icons/si";
+import PortfolioItemCard from "./PortfolioItemCard";
 
 const Portfolio = ({ content }) => {
   const { classIndex } = useSelector((store) => store.navigation);
@@ -18,11 +17,12 @@ const Portfolio = ({ content }) => {
           <span className="big-text">{content.h2BgText}</span>
         </h1>
       </div>
-      <p className="portfolio-text">
-        Here are the projects I have done during the bootcamp and after.
-      </p>
+      <p className="portfolio-text">{content.portfolioText}</p>
       <div className="portfolio-container">
-        <div className="portfolio-item">
+        {content.portfolioItems.map((portfolioItem, index) => {
+          return <PortfolioItemCard key={index} content={portfolioItem} />;
+        })}
+        {/* <div className="portfolio-item">
           <div className="portfolio-image">
             <img
               src="https://res.cloudinary.com/dbe27rnpk/image/upload/v1675094907/portfolio/Capture_d_e%CC%81cran_2023-01-05_a%CC%80_14.11.55_gxdxrj.png"
@@ -51,7 +51,7 @@ const Portfolio = ({ content }) => {
             </div>
           </div>
           <h3>HappyCow Clone</h3>
-        </div>
+        </div> */}
       </div>
     </div>
   );
