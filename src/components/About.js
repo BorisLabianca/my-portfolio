@@ -3,7 +3,7 @@ import CVDownloadButton from "./CVDownloadButton";
 import htmlLogo from "../assets/icons8-html-5.svg";
 import cssLogo from "../assets/icons8-css3.svg";
 import javascriptLogo from "../assets/icons8-javascript.svg";
-import reactLogo from "../assets/react-icon.svg";
+import reactLogo from "../assets/icons8-react-native.svg";
 import reduxLogo from "../assets/icons8-redux.svg";
 import expressLogo from "../assets/expressjs.svg";
 import mongoddbLogo from "../assets/mongodb-leaf.svg";
@@ -54,11 +54,7 @@ const About = ({ content }) => {
             <img
               src={reactLogo}
               alt="React logo"
-              style={{
-                width: "130px",
-                marginBottom: "0.8rem",
-                marginTop: "1rem",
-              }}
+              style={{ width: "140px", marginBottom: "5px" }}
             />
             <p>React & React Native</p>
           </div>

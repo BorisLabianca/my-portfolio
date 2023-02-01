@@ -48,6 +48,14 @@ const AboutThisSite = ({ content }) => {
           ,{" "}
           <a
             target="_blank"
+            href="https://icons8.com/icon/123603/react-native"
+            rel="noreferrer"
+          >
+            React Native
+          </a>
+          ,{" "}
+          <a
+            target="_blank"
             href="https://icons8.com/icon/jD-fJzVguBmw/redux"
             rel="noreferrer"
           >
@@ -120,6 +128,14 @@ const AboutThisSite = ({ content }) => {
           ,{" "}
           <a
             target="_blank"
+            href="https://icons8.com/icon/123603/react-native"
+            rel="noreferrer"
+          >
+            React Native
+          </a>
+          ,{" "}
+          <a
+            target="_blank"
             href="https://icons8.com/icon/jD-fJzVguBmw/redux"
             rel="noreferrer"
           >
@@ -188,6 +204,14 @@ const AboutThisSite = ({ content }) => {
               rel="noreferrer"
             >
               JavaScript
+            </a>
+            、
+            <a
+              target="_blank"
+              href="https://icons8.com/icon/123603/react-native"
+              rel="noreferrer"
+            >
+              React Native
             </a>
             、
             <a
