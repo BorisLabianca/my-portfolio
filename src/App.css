@@ -159,6 +159,13 @@ main {
   align-items: center;
   justify-content: center;
 }
+.switch-cover {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  background-color: transparent;
+}
 .language-switch-hover {
   display: none;
   position: fixed;
@@ -177,7 +184,7 @@ main {
   background-color: var(--color-secondary);
   color: var(--color-white);
 }
-.language-switch:hover .language-switch-hover {
+.language-switch-hover.menu-visible {
   display: inline-block;
   position: fixed;
   top: 5%;
@@ -920,7 +927,7 @@ textarea {
     background-color: var(--color-secondary);
     color: var(--color-white);
   }
-  .language-switch:hover .language-switch-hover {
+  .language-switch-hover.menu-visible {
     display: inline-block;
     position: fixed;
     top: 1%;

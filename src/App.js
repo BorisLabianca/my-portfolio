@@ -1,4 +1,5 @@
 import { useSelector, useDispatch } from "react-redux";
+import { useRef, useState } from "react";
 import { switchLanguage } from "./features/language/languageSlice";
 import { switchTheme } from "./features/theme/themeSlice";
 import "./App.css";
@@ -56,8 +57,20 @@ function App() {
       },
     },
   ];
+
   const { language } = useSelector((store) => store.language);
   const { theme } = useSelector((store) => store.theme);
+  const menuRef = useRef();
+  const switchRef = useRef();
+  const [menuVisible, setMenuVisible] = useState(false);
+  window.addEventListener("click", (event) => {
+    if (
+      event.target !== menuRef.current &&
+      event.target !== switchRef.current
+    ) {
+      setMenuVisible(false);
+    }
+  });
 
   return (
     <div
@@ -123,7 +136,7 @@ function App() {
           );
         })}
       </div>
-      <div className="language-switch">
+      {/* <div className="language-switch">
         <FaLanguage className="icon" />
         <div className="language-switch-hover">
           <div
@@ -165,8 +178,59 @@ function App() {
             日
           </div>
         </div>
+      </div> */}
+      <div
+        className="language-switch"
+        onClick={() => {
+          setMenuVisible(!menuVisible);
+        }}
+      >
+        <div className="switch-cover" ref={switchRef}></div>
+        <FaLanguage className="icon" />
+        <div
+          className={`language-switch-hover ${menuVisible && "menu-visible"}`}
+          ref={menuRef}
+        >
+          <div
+            className={language === "eng" ? "selected" : "not-selected"}
+            onClick={() => {
+              dispatch(switchLanguage("eng"));
+            }}
+          >
+            Eng
+          </div>
+          <div
+            className={language === "fr" ? "selected" : "not-selected"}
+            onClick={() => {
+              dispatch(switchLanguage("fr"));
+            }}
+          >
+            Fr
+          </div>
+          <div
+            className={
+              language === "jap" ? "jap-big selected" : "jap-big not-selected"
+            }
+            onClick={() => {
+              dispatch(switchLanguage("jap"));
+            }}
+          >
+            日本語
+          </div>
+          <div
+            className={
+              language === "jap"
+                ? "jap-small selected"
+                : "jap-small not-selected"
+            }
+            onClick={() => {
+              dispatch(switchLanguage("jap"));
+            }}
+          >
+            日
+          </div>
+        </div>
       </div>
-
       <div
         className="theme-switch"
         onClick={() => {
