@@ -16,7 +16,6 @@ const AboutThisSite = ({ content }) => {
         <h1>
           {content.h2Beg}
           <span>{content.h2Span}</span>
-          <span className="big-text">{content.h2BgText}</span>
         </h1>
       </div>
       <h2 className="origin-title">{content.siteOriginTitle}</h2>

@@ -14,7 +14,6 @@ const Portfolio = ({ content }) => {
         <h1>
           {content.h2Beg}
           <span>{content.h2Span}</span>
-          <span className="big-text">{content.h2BgText}</span>
         </h1>
       </div>
       <h3 className="portfolio-text">{content.portfolioText}</h3>

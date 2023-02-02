@@ -22,7 +22,6 @@ const Contact = ({ content }) => {
           <h1>
             {content.h2Beg}
             <span>{content.h2Span}</span>
-            <span className="big-text">{content.h2BgText}</span>
           </h1>
         </div>
         <div className="contact-content-container">
@@ -58,7 +57,7 @@ const Contact = ({ content }) => {
             className="contact-form"
           >
             <fieldset id="fs-frm-inputs">
-              <div className="input-control">
+              <div className="input-control-1">
                 <div className="name-input">
                   <label htmlFor="full-name">
                     {content.fullName}

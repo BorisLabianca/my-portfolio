@@ -28,7 +28,6 @@ const About = ({ content }) => {
         <h1>
           {content.h2Beg}
           <span>{content.h2Span}</span>
-          <span className="big-text">{content.h2BgText}</span>
         </h1>
       </div>
       <div className="about-container">
@@ -50,12 +49,8 @@ const About = ({ content }) => {
             <img src={javascriptLogo} alt="JavaScript logo" />
             <p>JavaScript</p>
           </div>
-          <div className="skills-item">
-            <img
-              src={reactLogo}
-              alt="React logo"
-              style={{ width: "140px", marginBottom: "5px" }}
-            />
+          <div className="skills-item react">
+            <img src={reactLogo} alt="React logo" />
             <p>React & React Native</p>
           </div>
           <div className="skills-item">
@@ -66,42 +61,20 @@ const About = ({ content }) => {
             <img src={cssLogo} alt="css 3 logo" />
             <p>CSS 3</p>
           </div>
-          <div className="skills-item">
-            <img src={reduxLogo} alt="Redux logo" style={{ width: "150px" }} />
+          <div className="skills-item redux">
+            <img src={reduxLogo} alt="Redux logo" />
             <p>Redux & Redux Toolkit</p>
           </div>
-          <div className="skills-item">
-            <img
-              src={expressLogo}
-              alt="Express.js logo"
-              style={{ width: "200px" }}
-            />
+          <div className="skills-item express">
+            <img src={expressLogo} alt="Express.js logo" />
             <p>Express.js</p>
           </div>
-          <div className="skills-item">
-            <img
-              src={mongoddbLogo}
-              alt="MongoDB logo"
-              style={{
-                width: "50px",
-                marginBottom: "0.8rem",
-                marginTop: "1rem",
-              }}
-            />
+          <div className="skills-item mongo">
+            <img src={mongoddbLogo} alt="MongoDB logo" />
             <p>MongoDB</p>
           </div>
-          <div className="skills-item">
-            <img
-              src={nextLogo}
-              alt="html 5 logo"
-              style={{
-                width: "115px",
-                backgroundColor: "white",
-                borderRadius: "50%",
-                marginBottom: "0.8rem",
-                marginTop: "1rem",
-              }}
-            />
+          <div className="skills-item next">
+            <img src={nextLogo} alt="Next.js logo" />
             <p>Next.js</p>
           </div>
           <div className="skills-item">

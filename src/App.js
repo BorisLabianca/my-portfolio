@@ -7,10 +7,10 @@ import {
   FaHome,
   FaUser,
   FaBriefcase,
-  FaWindowMaximize,
   FaSun,
   FaMoon,
   FaLanguage,
+  FaCode,
 } from "react-icons/fa";
 import NavButton from "./components/NavButton";
 import Home from "./components/Home";
@@ -40,7 +40,7 @@ function App() {
       },
     },
     {
-      icon: <FaWindowMaximize className="icon" />,
+      icon: <FaCode className="icon" />,
       description: {
         eng: "About this site",
         fr: "A propos du site",

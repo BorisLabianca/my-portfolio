@@ -24,6 +24,7 @@ const navigationSlice = createSlice({
     navigateBetweenSections: (state, action) => {
       const { payload } = action;
       state.classIndex = payload;
+      window.scrollTo(0, 0);
     },
   },
 });
