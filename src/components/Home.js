@@ -20,15 +20,8 @@ const Home = ({ content }) => {
             <span>{content.h1Span}</span>
             {content.h1End}
           </div>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti,
-            doloremque esse! Tenetur veritatis aut, tempore deserunt id rem quo
-            consequuntur nobis obcaecati voluptates accusantium soluta quisquam
-            harum ullam! Velit, suscipit! Similique explicabo sed, numquam unde
-            officiis blanditiis enim iste rem eum eaque eos itaque reprehenderit
-            dolorem ipsam tenetur voluptate, iusto doloremque nihil? Ratione
-            blanditiis harum soluta officiis accusantium ducimus distinctio.
-          </p>
+          <p className="bio-1">{content.bio1}</p>
+          <p className="bio-2">{content.bio2}</p>
           <CVDownloadButton />
         </div>
       </div>

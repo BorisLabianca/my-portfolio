@@ -33,7 +33,11 @@ const About = ({ content }) => {
       <div className="about-container">
         <div className="about-left">
           <h4>{content.infoTitle}</h4>
-          <p>{content.description}</p>
+          <p>
+            {content.description1}
+            <br />
+            {content.description2}
+          </p>
           <CVDownloadButton />
         </div>
         <div className="about-right">

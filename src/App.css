@@ -170,7 +170,7 @@ main {
   display: none;
   position: fixed;
   top: 5%;
-  right: 8%;
+  right: 7%;
   display: flex;
   gap: 10px;
   z-index: 2;
@@ -188,7 +188,7 @@ main {
   display: inline-block;
   position: fixed;
   top: 5%;
-  right: 8%;
+  right: 7%;
   display: flex;
   gap: 10px;
   z-index: 2;
@@ -200,8 +200,8 @@ main {
   background-color: var(--color-secondary);
   padding: 5px;
   cursor: pointer;
-  height: 60px;
-  width: 60px;
+  height: 55px;
+  width: 55px;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -212,8 +212,8 @@ main {
   color: var(--color-grey-2);
   padding: 5px;
   cursor: pointer;
-  height: 60px;
-  width: 60px;
+  height: 55px;
+  width: 55px;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -387,9 +387,15 @@ main {
 .name span {
   color: var(--color-secondary);
 }
-.home-right p {
-  margin: 1.5rem 0;
+.home-right .bio-1 {
+  margin-top: 1.5rem;
   line-height: 2rem;
+  text-align: justify;
+}
+.home-right .bio-2 {
+  margin-bottom: 1.5rem;
+  line-height: 2rem;
+  text-align: justify;
 }
 
 /* CV Download Button Style */
@@ -462,6 +468,7 @@ h1 {
   line-height: 2rem;
   padding: 1rem;
   color: var(--color-grey-1);
+  text-align: justify;
 }
 h4 {
   text-transform: uppercase;
@@ -636,6 +643,9 @@ h5 span {
 .portfolio-item {
   height: auto;
   width: calc(100% / 3 - 4rem / 3);
+}
+.stack-type {
+  margin-bottom: 0.5rem;
 }
 .portfolio-image {
   position: relative;

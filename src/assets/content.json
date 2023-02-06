@@ -4,13 +4,16 @@
       "h1Beg": "Hi, I'm ",
       "h1Span": "Boris Labianca.",
       "h1End": " I'm a junior full-stack JavaScript developer.",
-      "bio": ""
+      "bio1": "I have worked in Asia for over 15 years and I am now transitioning to the world of web development. I did a bootcamp centered around JavaScript at Le Reacteur, where I learned how to code with React and React Native. I am always eager to learn new things and take on new challenges.",
+      "bio2": "Currently, I am looking for a 6-month internship or a first job as a web developer. Check out my portfolio to learn more about me."
     },
+
     "aboutMe": {
       "h2Beg": "About ",
       "h2Span": "me",
       "infoTitle": "Information about me",
-      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit quos vel quisquam, laborum fugiat accusamus ipsam, aspernatur autem, dicta nisi quaerat molestiae necessitatibus voluptate totam deleniti eligendi adipisci magni laboriosam. Facilis beatae, laborum quasi dolorum vel a temporibus alias aliquam consequatur sed minima maxime nulla sequi placeat, error architecto! Ipsum, adipisci sapiente? Similique tempora magnam ullam illo fugiat sequi labore.",
+      "description1": "Over the span of the 15 years I have spent in Asia, I have worked in the language learning field. I started out as a French teacher but went on to take on roles in management. I have worked in curriculum development and I am accustomed to managing projects. Working for a growing company, part of my job was to act as the in-house graphic designer.",
+      "description2": "Now, I reuse those skills in web development and with my freshly learned coding skills, I enjoy taking on full-stack and front-end projects.",
       "showcasedSkills": [
         { "largeText": "3", "smallText": "spoken languages" },
         { "largeText": "10+", "smallText": "years curriculum development" },
@@ -41,6 +44,7 @@
       "portfolioItems": [
         {
           "title": "HappyCow Replica",
+          "stackType": "Full-stack",
           "img": "https://res.cloudinary.com/dbe27rnpk/image/upload/v1675260158/portfolio/Capture_d_e%CC%81cran_2023-02-01_a%CC%80_15.02.03_z6dtxl.png",
           "hoverH3": "Project sources & site",
           "githubLinkBack": "https://github.com/BorisLabianca/happycow-back",
@@ -49,6 +53,7 @@
         },
         {
           "title": "Airbnb app replica",
+          "stackType": "Front-end",
           "img": "https://res.cloudinary.com/dbe27rnpk/image/upload/v1675269141/portfolio/Artboard_1_xmshky.png",
           "hoverH3": "Project sources & site",
           "githubLinkBack": "",
@@ -57,6 +62,7 @@
         },
         {
           "title": "Marvel inspired site",
+          "stackType": "Full-stack",
           "img": "https://res.cloudinary.com/dbe27rnpk/image/upload/v1675264883/portfolio/Capture_d_e%CC%81cran_2023-02-01_a%CC%80_16.20.58_apyssr.png",
           "hoverH3": "Project sources & site",
           "githubLinkBack": "https://github.com/BorisLabianca/marvel-backend",
@@ -65,6 +71,7 @@
         },
         {
           "title": "Vinted Replica",
+          "stackType": "Full-stack",
           "img": "https://res.cloudinary.com/dbe27rnpk/image/upload/v1675261782/portfolio/Capture_d_e%CC%81cran_2023-02-01_a%CC%80_15.29.16_euwnaq.png",
           "hoverH3": "Project sources & site",
           "githubLinkBack": "https://github.com/BorisLabianca/Vinted-Mockup",
@@ -73,6 +80,7 @@
         },
         {
           "title": "Deliveroo Shopping Cart Replica",
+          "stackType": "Full-stack",
           "img": "https://res.cloudinary.com/dbe27rnpk/image/upload/v1675271822/portfolio/Capture_d_e%CC%81cran_2023-02-01_a%CC%80_18.10.44_bqhbpa.png",
           "hoverH3": "Project sources & site",
           "githubLinkBack": "https://github.com/BorisLabianca/deliveroo-backend",
@@ -113,13 +121,15 @@
       "h1Beg": "Bonjour, moi, c'est ",
       "h1Span": "Boris Labianca.",
       "h1End": " Je suis un développeur full-stack JavaScript junior.",
-      "bio": ""
+      "bio1": "J’ai travaillé en Asie pendant plus de 15 ans. À présent en reconversion professionnelle, j’ai récemment terminé une formation de développeur web et mobile centrée sur le langage JavaScript avec Le Reacteur où j’ai appris à coder avec React et React Native. J'aime apprendre de nouvelles choses et faire face à de nouveaux challenges.",
+      "bio2": "Je suis à présent à la recherche d’un stage de 6 mois ou d’un premier emploi en tant de que développeur web. N’hésitez pas à parcourir mon portfolio pour en savoir plus."
     },
     "aboutMe": {
       "h2Beg": "À ",
       "h2Span": "mon sujet",
       "infoTitle": "Informations sur moi",
-      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit quos vel quisquam, laborum fugiat accusamus ipsam, aspernatur autem, dicta nisi quaerat molestiae necessitatibus voluptate totam deleniti eligendi adipisci magni laboriosam. Facilis beatae, laborum quasi dolorum vel a temporibus alias aliquam consequatur sed minima maxime nulla sequi placeat, error architecto! Ipsum, adipisci sapiente? Similique tempora magnam ullam illo fugiat sequi labore.",
+      "description1": "Pendant la quinzaine d’années que j’ai passée en Asie, j’ai travaillé dans le domaine de l’enseignement des langues. J’ai commencé en tant que professeur puis petit à petit, j’ai endossé de nouvelles responsabilités managériales. J’ai travaillé dans la conception de programmes pédagogiques et j’ai été amené à gérer des projets. Ayant travaillé pour une PME en pleine croissance, j’ai également eu des fonctions de graphistes.",
+      "description2": "À présent, je réutilise ces compétences dans la conception de sites Internet et grâce à ma formation récemment suivie, je prends plaisir à réaliser des projets full-stack et front-end.",
       "showcasedSkills": [
         { "largeText": "3", "smallText": "langues parlées" },
         { "largeText": "10+", "smallText": "années de conception pédagogique" },
@@ -150,6 +160,7 @@
       "portfolioItems": [
         {
           "title": "Réplique du site HappyCow",
+          "stackType": "Full-stack",
           "img": "https://res.cloudinary.com/dbe27rnpk/image/upload/v1675260158/portfolio/Capture_d_e%CC%81cran_2023-02-01_a%CC%80_15.02.03_z6dtxl.png",
           "hoverH3": "Sources du projet et site",
           "githubLinkBack": "https://github.com/BorisLabianca/happycow-back",
@@ -158,6 +169,7 @@
         },
         {
           "title": "Réplique de l'appli Airbnb",
+          "stackType": "Front-end",
           "img": "https://res.cloudinary.com/dbe27rnpk/image/upload/v1675269141/portfolio/Artboard_1_xmshky.png",
           "hoverH3": "Sources du projet et site",
           "githubLinkBack": "",
@@ -166,6 +178,7 @@
         },
         {
           "title": "Site inspiré de Marvel",
+          "stackType": "Full-stack",
           "img": "https://res.cloudinary.com/dbe27rnpk/image/upload/v1675264883/portfolio/Capture_d_e%CC%81cran_2023-02-01_a%CC%80_16.20.58_apyssr.png",
           "hoverH3": "Sources du projet et site",
           "githubLinkBack": "https://github.com/BorisLabianca/marvel-backend",
@@ -174,6 +187,7 @@
         },
         {
           "title": "Réplique du site Vinted",
+          "stackType": "Full-stack",
           "img": "https://res.cloudinary.com/dbe27rnpk/image/upload/v1675261782/portfolio/Capture_d_e%CC%81cran_2023-02-01_a%CC%80_15.29.16_euwnaq.png",
           "hoverH3": "Sources du projet et site",
           "githubLinkBack": "https://github.com/BorisLabianca/Vinted-Mockup",
@@ -182,6 +196,7 @@
         },
         {
           "title": "Réplique du panier de Deliveroo",
+          "stackType": "Full-stack",
           "img": "https://res.cloudinary.com/dbe27rnpk/image/upload/v1675271822/portfolio/Capture_d_e%CC%81cran_2023-02-01_a%CC%80_18.10.44_bqhbpa.png",
           "hoverH3": "Sources du projet et site",
           "githubLinkBack": "https://github.com/BorisLabianca/deliveroo-backend",
@@ -222,13 +237,15 @@
       "h1Beg": "どうも。",
       "h1Span": "ラビアンカ•ボリス",
       "h1End": "と申します。ジュニアフルスタックウェブデベロッパーです。",
-      "bio": ""
+      "bio1": "アジアで15年以上働いてきまして、現在は専門的な再トレーニングを受けており、最近、Le Reacteur で JavaScript 言語を中心とした Web およびモバイル開発者トレーニングを完了し、そこで React と React Native を使用したコーディングを学びました。新しいことを学び、新しい挑戦に直面するのが大好きです。",
+      "bio2": "現在、6ヶ月間のインターンシップまたはウェブデベロッパーとしての最初の仕事を探しています。 詳細については、僕のポートフォリオを参照してください。"
     },
     "aboutMe": {
       "h2Beg": "プロ",
       "h2Span": "フィール",
       "infoTitle": "自己紹介",
-      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit quos vel quisquam, laborum fugiat accusamus ipsam, aspernatur autem, dicta nisi quaerat molestiae necessitatibus voluptate totam deleniti eligendi adipisci magni laboriosam. Facilis beatae, laborum quasi dolorum vel a temporibus alias aliquam consequatur sed minima maxime nulla sequi placeat, error architecto! Ipsum, adipisci sapiente? Similique tempora magnam ullam illo fugiat sequi labore.",
+      "description1": "アジアで過ごした15以上の間に語学教育の分野で働きました。教師として始めましたが、少しずつ、新しい管理責任を引き受けました。カリキュラムデベロッパーとして働いて、プロジェクトを管理には慣れています。 成長中の中小企業で働いた経験から、グラフィックデザイナーとしての役割も果たしました。",
+      "description2": "現在、身に付けたスキルをウェブ開発に再利用し、新たに学んだコーディングスキルを使用して、フルスタックおよびフロントエンドプロジェクトに取り組むことを楽しんでいます。",
       "showcasedSkills": [
         { "largeText": "3", "smallText": "言語が話する" },
         { "largeText": "10+", "smallText": "年間の海外で仕事の経験" },
@@ -259,6 +276,7 @@
       "portfolioItems": [
         {
           "title": "HappyCowの副製品",
+          "stackType": "Full-stack",
           "img": "https://res.cloudinary.com/dbe27rnpk/image/upload/v1675260158/portfolio/Capture_d_e%CC%81cran_2023-02-01_a%CC%80_15.02.03_z6dtxl.png",
           "hoverH3": "Githubとサイトのリンク",
           "githubLinkBack": "https://github.com/BorisLabianca/happycow-back",
@@ -267,6 +285,7 @@
         },
         {
           "title": "Airbnbアプリの副製品",
+          "stackType": "Front-end",
           "img": "https://res.cloudinary.com/dbe27rnpk/image/upload/v1675269141/portfolio/Artboard_1_xmshky.png",
           "hoverH3": "Githubとサイトのリンク",
           "githubLinkBack": "",
@@ -275,6 +294,7 @@
         },
         {
           "title": "Marvel人物とコミックのサイト",
+          "stackType": "Full-stack",
           "img": "https://res.cloudinary.com/dbe27rnpk/image/upload/v1675264883/portfolio/Capture_d_e%CC%81cran_2023-02-01_a%CC%80_16.20.58_apyssr.png",
           "hoverH3": "Githubとサイトのリンク",
           "githubLinkBack": "https://github.com/BorisLabianca/marvel-backend",
@@ -283,6 +303,7 @@
         },
         {
           "title": "Vintedの副製品",
+          "stackType": "Full-stack",
           "img": "https://res.cloudinary.com/dbe27rnpk/image/upload/v1675261782/portfolio/Capture_d_e%CC%81cran_2023-02-01_a%CC%80_15.29.16_euwnaq.png",
           "hoverH3": "Githubとサイトのリンク",
           "githubLinkBack": "https://github.com/BorisLabianca/Vinted-Mockup",
@@ -291,6 +312,7 @@
         },
         {
           "title": "Deliverooのショッピングカート",
+          "stackType": "Full-stack",
           "img": "https://res.cloudinary.com/dbe27rnpk/image/upload/v1675271822/portfolio/Capture_d_e%CC%81cran_2023-02-01_a%CC%80_18.10.44_bqhbpa.png",
           "hoverH3": "Githubとサイトのリンク",
           "githubLinkBack": "https://github.com/BorisLabianca/deliveroo-backend",

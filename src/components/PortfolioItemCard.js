@@ -4,6 +4,7 @@ import { SiNetlify } from "react-icons/si";
 const PortfolioItemCard = ({ content }) => {
   return (
     <div className="portfolio-item">
+      <p className="stack-type">{content.stackType}</p>
       <div className="portfolio-image">
         <img src={content.img} alt="Screenshot of main page" />
         <div className="hover-item">
