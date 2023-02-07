@@ -45,47 +45,117 @@
         {
           "title": "HappyCow Replica",
           "stackType": "Full-stack",
-          "img": "https://res.cloudinary.com/dbe27rnpk/image/upload/v1675260158/portfolio/Capture_d_e%CC%81cran_2023-02-01_a%CC%80_15.02.03_z6dtxl.png",
+          "screenShots": [
+            "https://res.cloudinary.com/dbe27rnpk/image/upload/v1675260158/portfolio/Capture_d_e%CC%81cran_2023-02-01_a%CC%80_15.02.03_z6dtxl.png",
+            "https://res.cloudinary.com/dbe27rnpk/image/upload/v1675790568/portfolio/Capture_d_e%CC%81cran_2023-02-07_a%CC%80_13.51.28_mom3pj.png",
+            "https://res.cloudinary.com/dbe27rnpk/image/upload/v1675790568/portfolio/Capture_d_e%CC%81cran_2023-02-07_a%CC%80_15.18.56_xfcqi3.png",
+            "https://res.cloudinary.com/dbe27rnpk/image/upload/v1675790568/portfolio/Capture_d_e%CC%81cran_2023-02-07_a%CC%80_15.25.29_xsj5p3.png",
+            "https://res.cloudinary.com/dbe27rnpk/image/upload/v1675795747/portfolio/Capture_d_e%CC%81cran_2023-02-07_a%CC%80_19.48.37_peawyx.png"
+          ],
           "hoverH3": "Project sources & site",
           "githubLinkBack": "https://github.com/BorisLabianca/happycow-back",
           "githubLinkFront": "https://github.com/BorisLabianca/happycow-web",
-          "netlifyLink": "https://boris-labianca-happycow.netlify.app/"
+          "netlifyLink": "https://boris-labianca-happycow.netlify.app/",
+          "usedTech": {
+            "front": ["React", "Axios", "React Leaflet"],
+            "back": ["Express", "MongoDB"],
+            "features": [
+              "Authentication",
+              "Add a business",
+              "Add pictures",
+              "Add to favorite",
+              "3rd party API to get coordinates from address",
+              "Locate businesses around",
+              "Review system",
+              "Rating system",
+              "Profile update",
+              "Autocomplete search bar"
+            ]
+          }
         },
         {
           "title": "Airbnb app replica",
           "stackType": "Front-end",
-          "img": "https://res.cloudinary.com/dbe27rnpk/image/upload/v1675269141/portfolio/Artboard_1_xmshky.png",
+          "screenShots": [
+            "https://res.cloudinary.com/dbe27rnpk/image/upload/v1675269141/portfolio/Artboard_1_xmshky.png"
+          ],
           "hoverH3": "Project sources & site",
           "githubLinkBack": "",
           "githubLinkFront": "https://github.com/BorisLabianca/airbnb-app",
-          "netlifyLink": ""
+          "netlifyLink": "",
+          "usedTech": {
+            "front": ["React Native", "Axios", "Expo"],
+            "back": [],
+            "features": [
+              "Authentication",
+              "Profile update",
+              "Call to 3rd party API"
+            ]
+          }
         },
         {
           "title": "Marvel inspired site",
           "stackType": "Full-stack",
-          "img": "https://res.cloudinary.com/dbe27rnpk/image/upload/v1675264883/portfolio/Capture_d_e%CC%81cran_2023-02-01_a%CC%80_16.20.58_apyssr.png",
+          "screenShots": [
+            "https://res.cloudinary.com/dbe27rnpk/image/upload/v1675264883/portfolio/Capture_d_e%CC%81cran_2023-02-01_a%CC%80_16.20.58_apyssr.png"
+          ],
           "hoverH3": "Project sources & site",
           "githubLinkBack": "https://github.com/BorisLabianca/marvel-backend",
           "githubLinkFront": "https://github.com/BorisLabianca/marvel-frontend",
-          "netlifyLink": "https://boris-labianca-marvel.netlify.app/"
+          "netlifyLink": "https://boris-labianca-marvel.netlify.app/",
+          "usedTech": {
+            "front": ["React", "Axios"],
+            "back": ["Express", "MongoDB"],
+            "features": [
+              "Authentication",
+              "Add to favorite",
+              "Call to 3rd party API",
+              "Autocomplete search bar"
+            ]
+          }
         },
         {
           "title": "Vinted Replica",
           "stackType": "Full-stack",
-          "img": "https://res.cloudinary.com/dbe27rnpk/image/upload/v1675261782/portfolio/Capture_d_e%CC%81cran_2023-02-01_a%CC%80_15.29.16_euwnaq.png",
+          "screenShots": [
+            "https://res.cloudinary.com/dbe27rnpk/image/upload/v1675261782/portfolio/Capture_d_e%CC%81cran_2023-02-01_a%CC%80_15.29.16_euwnaq.png",
+            "https://res.cloudinary.com/dbe27rnpk/image/upload/v1675791846/portfolio/Capture_d_e%CC%81cran_2023-02-07_a%CC%80_18.43.08_i1tlia.png",
+            "https://res.cloudinary.com/dbe27rnpk/image/upload/v1675791846/portfolio/Capture_d_e%CC%81cran_2023-02-07_a%CC%80_18.42.45_dilori.png",
+            "https://res.cloudinary.com/dbe27rnpk/image/upload/v1675791848/portfolio/Capture_d_e%CC%81cran_2023-02-07_a%CC%80_18.43.22_zdxhpj.png",
+            "https://res.cloudinary.com/dbe27rnpk/image/upload/v1675791846/portfolio/Capture_d_e%CC%81cran_2023-02-07_a%CC%80_18.43.38_bkklyv.png"
+          ],
           "hoverH3": "Project sources & site",
           "githubLinkBack": "https://github.com/BorisLabianca/Vinted-Mockup",
           "githubLinkFront": "https://github.com/BorisLabianca/vinted-front",
-          "netlifyLink": "https://boris-labianca-vinted.netlify.app/"
+          "netlifyLink": "https://boris-labianca-vinted.netlify.app/",
+          "usedTech": {
+            "front": ["React", "Axios"],
+            "back": ["Express", "MongoDB"],
+            "features": [
+              "Authentication",
+              "Payment with Stripe",
+              "Add an item",
+              "Photo uploads",
+              "Autocomplete search bar",
+              "Sorting toolbar"
+            ]
+          }
         },
         {
           "title": "Deliveroo Shopping Cart Replica",
           "stackType": "Full-stack",
-          "img": "https://res.cloudinary.com/dbe27rnpk/image/upload/v1675271822/portfolio/Capture_d_e%CC%81cran_2023-02-01_a%CC%80_18.10.44_bqhbpa.png",
+          "screenShots": [
+            "https://res.cloudinary.com/dbe27rnpk/image/upload/v1675271822/portfolio/Capture_d_e%CC%81cran_2023-02-01_a%CC%80_18.10.44_bqhbpa.png"
+          ],
           "hoverH3": "Project sources & site",
           "githubLinkBack": "https://github.com/BorisLabianca/deliveroo-backend",
           "githubLinkFront": "https://github.com/BorisLabianca/deliveroo-frontend",
-          "netlifyLink": ""
+          "netlifyLink": "",
+          "usedTech": {
+            "front": ["React", "Axios"],
+            "back": ["Express"],
+            "features": ["Shopping cart management", "Call to 3rd party API"]
+          }
         }
       ]
     },
@@ -161,47 +231,117 @@
         {
           "title": "Réplique du site HappyCow",
           "stackType": "Full-stack",
-          "img": "https://res.cloudinary.com/dbe27rnpk/image/upload/v1675260158/portfolio/Capture_d_e%CC%81cran_2023-02-01_a%CC%80_15.02.03_z6dtxl.png",
+          "screenShots": [
+            "https://res.cloudinary.com/dbe27rnpk/image/upload/v1675260158/portfolio/Capture_d_e%CC%81cran_2023-02-01_a%CC%80_15.02.03_z6dtxl.png",
+            "https://res.cloudinary.com/dbe27rnpk/image/upload/v1675790568/portfolio/Capture_d_e%CC%81cran_2023-02-07_a%CC%80_13.51.28_mom3pj.png",
+            "https://res.cloudinary.com/dbe27rnpk/image/upload/v1675790568/portfolio/Capture_d_e%CC%81cran_2023-02-07_a%CC%80_15.18.56_xfcqi3.png",
+            "https://res.cloudinary.com/dbe27rnpk/image/upload/v1675790568/portfolio/Capture_d_e%CC%81cran_2023-02-07_a%CC%80_15.25.29_xsj5p3.png",
+            "https://res.cloudinary.com/dbe27rnpk/image/upload/v1675795747/portfolio/Capture_d_e%CC%81cran_2023-02-07_a%CC%80_19.48.37_peawyx.png"
+          ],
           "hoverH3": "Sources du projet et site",
           "githubLinkBack": "https://github.com/BorisLabianca/happycow-back",
           "githubLinkFront": "https://github.com/BorisLabianca/happycow-web",
-          "netlifyLink": "https://boris-labianca-happycow.netlify.app/"
+          "netlifyLink": "https://boris-labianca-happycow.netlify.app/",
+          "usedTech": {
+            "front": ["React", "Axios", "React Leaflet"],
+            "back": ["Express", "MongoDB"],
+            "features": [
+              "Authentication",
+              "Add a business",
+              "Add pictures",
+              "Add to favorite",
+              "3rd party API to get coordinates from address",
+              "Locate businesses around",
+              "Review system",
+              "Rating system",
+              "Profile update",
+              "Autocomplete search bar"
+            ]
+          }
         },
         {
           "title": "Réplique de l'appli Airbnb",
           "stackType": "Front-end",
-          "img": "https://res.cloudinary.com/dbe27rnpk/image/upload/v1675269141/portfolio/Artboard_1_xmshky.png",
+          "screenShots": [
+            "https://res.cloudinary.com/dbe27rnpk/image/upload/v1675269141/portfolio/Artboard_1_xmshky.png"
+          ],
           "hoverH3": "Sources du projet et site",
           "githubLinkBack": "",
           "githubLinkFront": "https://github.com/BorisLabianca/airbnb-app",
-          "netlifyLink": ""
+          "netlifyLink": "",
+          "usedTech": {
+            "front": ["React Native", "Axios", "Expo"],
+            "back": [],
+            "features": [
+              "Authentication",
+              "Profile update",
+              "Call to 3rd party API"
+            ]
+          }
         },
         {
           "title": "Site inspiré de Marvel",
           "stackType": "Full-stack",
-          "img": "https://res.cloudinary.com/dbe27rnpk/image/upload/v1675264883/portfolio/Capture_d_e%CC%81cran_2023-02-01_a%CC%80_16.20.58_apyssr.png",
+          "screenShots": [
+            "https://res.cloudinary.com/dbe27rnpk/image/upload/v1675264883/portfolio/Capture_d_e%CC%81cran_2023-02-01_a%CC%80_16.20.58_apyssr.png"
+          ],
           "hoverH3": "Sources du projet et site",
           "githubLinkBack": "https://github.com/BorisLabianca/marvel-backend",
           "githubLinkFront": "https://github.com/BorisLabianca/marvel-frontend",
-          "netlifyLink": "https://boris-labianca-marvel.netlify.app/"
+          "netlifyLink": "https://boris-labianca-marvel.netlify.app/",
+          "usedTech": {
+            "front": ["React", "Axios"],
+            "back": ["Express", "MongoDB"],
+            "features": [
+              "Authentication",
+              "Add to favorite",
+              "Call to 3rd party API",
+              "Autocomplete search bar"
+            ]
+          }
         },
         {
           "title": "Réplique du site Vinted",
           "stackType": "Full-stack",
-          "img": "https://res.cloudinary.com/dbe27rnpk/image/upload/v1675261782/portfolio/Capture_d_e%CC%81cran_2023-02-01_a%CC%80_15.29.16_euwnaq.png",
+          "screenShots": [
+            "https://res.cloudinary.com/dbe27rnpk/image/upload/v1675261782/portfolio/Capture_d_e%CC%81cran_2023-02-01_a%CC%80_15.29.16_euwnaq.png",
+            "https://res.cloudinary.com/dbe27rnpk/image/upload/v1675791846/portfolio/Capture_d_e%CC%81cran_2023-02-07_a%CC%80_18.43.08_i1tlia.png",
+            "https://res.cloudinary.com/dbe27rnpk/image/upload/v1675791846/portfolio/Capture_d_e%CC%81cran_2023-02-07_a%CC%80_18.42.45_dilori.png",
+            "https://res.cloudinary.com/dbe27rnpk/image/upload/v1675791848/portfolio/Capture_d_e%CC%81cran_2023-02-07_a%CC%80_18.43.22_zdxhpj.png",
+            "https://res.cloudinary.com/dbe27rnpk/image/upload/v1675791846/portfolio/Capture_d_e%CC%81cran_2023-02-07_a%CC%80_18.43.38_bkklyv.png"
+          ],
           "hoverH3": "Sources du projet et site",
           "githubLinkBack": "https://github.com/BorisLabianca/Vinted-Mockup",
           "githubLinkFront": "https://github.com/BorisLabianca/vinted-front",
-          "netlifyLink": "https://boris-labianca-vinted.netlify.app/"
+          "netlifyLink": "https://boris-labianca-vinted.netlify.app/",
+          "usedTech": {
+            "front": ["React", "Axios"],
+            "back": ["Express", "MongoDB"],
+            "features": [
+              "Authentication",
+              "Payment with Stripe",
+              "Add an item",
+              "Photo uploads",
+              "Autocomplete search bar",
+              "Sorting toolbar"
+            ]
+          }
         },
         {
           "title": "Réplique du panier de Deliveroo",
           "stackType": "Full-stack",
-          "img": "https://res.cloudinary.com/dbe27rnpk/image/upload/v1675271822/portfolio/Capture_d_e%CC%81cran_2023-02-01_a%CC%80_18.10.44_bqhbpa.png",
+          "screenShots": [
+            "https://res.cloudinary.com/dbe27rnpk/image/upload/v1675271822/portfolio/Capture_d_e%CC%81cran_2023-02-01_a%CC%80_18.10.44_bqhbpa.png"
+          ],
           "hoverH3": "Sources du projet et site",
           "githubLinkBack": "https://github.com/BorisLabianca/deliveroo-backend",
           "githubLinkFront": "https://github.com/BorisLabianca/deliveroo-frontend",
-          "netlifyLink": ""
+          "netlifyLink": "",
+          "usedTech": {
+            "front": ["React", "Axios"],
+            "back": ["Express"],
+            "features": ["Shopping cart management", "Call to 3rd party API"]
+          }
         }
       ]
     },
@@ -277,47 +417,117 @@
         {
           "title": "HappyCowの副製品",
           "stackType": "Full-stack",
-          "img": "https://res.cloudinary.com/dbe27rnpk/image/upload/v1675260158/portfolio/Capture_d_e%CC%81cran_2023-02-01_a%CC%80_15.02.03_z6dtxl.png",
+          "screenShots": [
+            "https://res.cloudinary.com/dbe27rnpk/image/upload/v1675260158/portfolio/Capture_d_e%CC%81cran_2023-02-01_a%CC%80_15.02.03_z6dtxl.png",
+            "https://res.cloudinary.com/dbe27rnpk/image/upload/v1675790568/portfolio/Capture_d_e%CC%81cran_2023-02-07_a%CC%80_13.51.28_mom3pj.png",
+            "https://res.cloudinary.com/dbe27rnpk/image/upload/v1675790568/portfolio/Capture_d_e%CC%81cran_2023-02-07_a%CC%80_15.18.56_xfcqi3.png",
+            "https://res.cloudinary.com/dbe27rnpk/image/upload/v1675790568/portfolio/Capture_d_e%CC%81cran_2023-02-07_a%CC%80_15.25.29_xsj5p3.png",
+            "https://res.cloudinary.com/dbe27rnpk/image/upload/v1675795747/portfolio/Capture_d_e%CC%81cran_2023-02-07_a%CC%80_19.48.37_peawyx.png"
+          ],
           "hoverH3": "Githubとサイトのリンク",
           "githubLinkBack": "https://github.com/BorisLabianca/happycow-back",
           "githubLinkFront": "https://github.com/BorisLabianca/happycow-web",
-          "netlifyLink": "https://boris-labianca-happycow.netlify.app/"
+          "netlifyLink": "https://boris-labianca-happycow.netlify.app/",
+          "usedTech": {
+            "front": ["React", "Axios", "React Leaflet"],
+            "back": ["Express", "MongoDB"],
+            "features": [
+              "Authentication",
+              "Add a business",
+              "Add pictures",
+              "Add to favorite",
+              "3rd party API to get coordinates from address",
+              "Locate businesses around",
+              "Review system",
+              "Rating system",
+              "Profile update",
+              "Autocomplete search bar"
+            ]
+          }
         },
         {
           "title": "Airbnbアプリの副製品",
           "stackType": "Front-end",
-          "img": "https://res.cloudinary.com/dbe27rnpk/image/upload/v1675269141/portfolio/Artboard_1_xmshky.png",
+          "screenShots": [
+            "https://res.cloudinary.com/dbe27rnpk/image/upload/v1675269141/portfolio/Artboard_1_xmshky.png"
+          ],
           "hoverH3": "Githubとサイトのリンク",
           "githubLinkBack": "",
           "githubLinkFront": "https://github.com/BorisLabianca/airbnb-app",
-          "netlifyLink": ""
+          "netlifyLink": "",
+          "usedTech": {
+            "front": ["React Native", "Axios", "Expo"],
+            "back": [],
+            "features": [
+              "Authentication",
+              "Profile update",
+              "Call to 3rd party API"
+            ]
+          }
         },
         {
           "title": "Marvel人物とコミックのサイト",
           "stackType": "Full-stack",
-          "img": "https://res.cloudinary.com/dbe27rnpk/image/upload/v1675264883/portfolio/Capture_d_e%CC%81cran_2023-02-01_a%CC%80_16.20.58_apyssr.png",
+          "screenShots": [
+            "https://res.cloudinary.com/dbe27rnpk/image/upload/v1675264883/portfolio/Capture_d_e%CC%81cran_2023-02-01_a%CC%80_16.20.58_apyssr.png"
+          ],
           "hoverH3": "Githubとサイトのリンク",
           "githubLinkBack": "https://github.com/BorisLabianca/marvel-backend",
           "githubLinkFront": "https://github.com/BorisLabianca/marvel-frontend",
-          "netlifyLink": "https://boris-labianca-marvel.netlify.app/"
+          "netlifyLink": "https://boris-labianca-marvel.netlify.app/",
+          "usedTech": {
+            "front": ["React", "Axios"],
+            "back": ["Express", "MongoDB"],
+            "features": [
+              "Authentication",
+              "Add to favorite",
+              "Call to 3rd party API",
+              "Autocomplete search bar"
+            ]
+          }
         },
         {
           "title": "Vintedの副製品",
           "stackType": "Full-stack",
-          "img": "https://res.cloudinary.com/dbe27rnpk/image/upload/v1675261782/portfolio/Capture_d_e%CC%81cran_2023-02-01_a%CC%80_15.29.16_euwnaq.png",
+          "screenShots": [
+            "https://res.cloudinary.com/dbe27rnpk/image/upload/v1675261782/portfolio/Capture_d_e%CC%81cran_2023-02-01_a%CC%80_15.29.16_euwnaq.png",
+            "https://res.cloudinary.com/dbe27rnpk/image/upload/v1675791846/portfolio/Capture_d_e%CC%81cran_2023-02-07_a%CC%80_18.43.08_i1tlia.png",
+            "https://res.cloudinary.com/dbe27rnpk/image/upload/v1675791846/portfolio/Capture_d_e%CC%81cran_2023-02-07_a%CC%80_18.42.45_dilori.png",
+            "https://res.cloudinary.com/dbe27rnpk/image/upload/v1675791848/portfolio/Capture_d_e%CC%81cran_2023-02-07_a%CC%80_18.43.22_zdxhpj.png",
+            "https://res.cloudinary.com/dbe27rnpk/image/upload/v1675791846/portfolio/Capture_d_e%CC%81cran_2023-02-07_a%CC%80_18.43.38_bkklyv.png"
+          ],
           "hoverH3": "Githubとサイトのリンク",
           "githubLinkBack": "https://github.com/BorisLabianca/Vinted-Mockup",
           "githubLinkFront": "https://github.com/BorisLabianca/vinted-front",
-          "netlifyLink": "https://boris-labianca-vinted.netlify.app/"
+          "netlifyLink": "https://boris-labianca-vinted.netlify.app/",
+          "usedTech": {
+            "front": ["React", "Axios"],
+            "back": ["Express", "MongoDB"],
+            "features": [
+              "Authentication",
+              "Payment with Stripe",
+              "Add an item",
+              "Photo uploads",
+              "Autocomplete search bar",
+              "Sorting toolbar"
+            ]
+          }
         },
         {
           "title": "Deliverooのショッピングカート",
           "stackType": "Full-stack",
-          "img": "https://res.cloudinary.com/dbe27rnpk/image/upload/v1675271822/portfolio/Capture_d_e%CC%81cran_2023-02-01_a%CC%80_18.10.44_bqhbpa.png",
+          "screenShots": [
+            "https://res.cloudinary.com/dbe27rnpk/image/upload/v1675271822/portfolio/Capture_d_e%CC%81cran_2023-02-01_a%CC%80_18.10.44_bqhbpa.png"
+          ],
           "hoverH3": "Githubとサイトのリンク",
           "githubLinkBack": "https://github.com/BorisLabianca/deliveroo-backend",
           "githubLinkFront": "https://github.com/BorisLabianca/deliveroo-frontend",
-          "netlifyLink": ""
+          "netlifyLink": "",
+          "usedTech": {
+            "front": ["React", "Axios"],
+            "back": ["Express"],
+            "features": ["Shopping cart management", "Call to 3rd party API"]
+          }
         }
       ]
     },

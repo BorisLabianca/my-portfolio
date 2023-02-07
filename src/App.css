@@ -718,6 +718,18 @@ h3 {
 .link-icon-and-title p {
   text-align: center;
 }
+.tech-and-features-div {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.portfolio-front-tech {
+  margin-left: 2rem;
+  margin-top: 0.5rem;
+}
+.portfolio-front-tech li {
+  list-style-type: disc;
+}
 
 /* About This Site Style */
 .about-this-site h2 {
