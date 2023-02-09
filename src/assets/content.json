@@ -4,7 +4,7 @@
       "h1Beg": "Hi, I'm ",
       "h1Span": "Boris Labianca.",
       "h1End": " I'm a junior full-stack JavaScript developer.",
-      "bio1": "I have worked in Asia for over 15 years and I am now transitioning to the world of web development. I did a bootcamp centered around JavaScript at Le Reacteur, where I learned how to code with React and React Native. I am always eager to learn new things and take on new challenges.",
+      "bio1": "I was born and raised in France, and I have worked in Asia for over 15 years. Thanks to that experience, I have come across different cultures and learned to embrace them. I am always eager to learn new things and take on new challenges. Now that I am back in France, I am transitioning to the world of web development. I did a bootcamp centered around JavaScript at Le Reacteur, where I learned how to code with React and React Native.",
       "bio2": "Currently, I am looking for a 6-month internship or a first job as a web developer. Check out my portfolio to learn more about me."
     },
 
@@ -191,8 +191,8 @@
       "h1Beg": "Bonjour, moi, c'est ",
       "h1Span": "Boris Labianca.",
       "h1End": " Je suis un développeur full-stack JavaScript junior.",
-      "bio1": "J’ai travaillé en Asie pendant plus de 15 ans. À présent en reconversion professionnelle, j’ai récemment terminé une formation de développeur web et mobile centrée sur le langage JavaScript avec Le Reacteur où j’ai appris à coder avec React et React Native. J'aime apprendre de nouvelles choses et faire face à de nouveaux challenges.",
-      "bio2": "Je suis à présent à la recherche d’un stage de 6 mois ou d’un premier emploi en tant de que développeur web. N’hésitez pas à parcourir mon portfolio pour en savoir plus."
+      "bio1": "Né et élevé en France, j’ai eu la chance de travailler en Asie pendant plus de 15 ans. Cette expérience m'a permis d'entrer en contact avec différentes cultures et de les apprécier. J'aime apprendre de nouvelles choses et faire face à de nouveaux challenges. À présent en reconversion professionnelle, j’ai récemment terminé une formation de développeur web et mobile centrée sur le langage JavaScript avec Le Reacteur où j’ai appris à coder avec React et React Native.",
+      "bio2": "Je suis actuellement à la recherche d’un stage de 6 mois ou d’un premier emploi en tant de que développeur web. N’hésitez pas à parcourir mon portfolio pour en savoir plus."
     },
     "aboutMe": {
       "h2Beg": "À ",
@@ -377,7 +377,7 @@
       "h1Beg": "どうも。",
       "h1Span": "ラビアンカ•ボリス",
       "h1End": "と申します。ジュニアフルスタックウェブデベロッパーです。",
-      "bio1": "アジアで15年以上働いてきまして、現在は専門的な再トレーニングを受けており、最近、Le Reacteur で JavaScript 言語を中心とした Web およびモバイル開発者トレーニングを完了し、そこで React と React Native を使用したコーディングを学びました。新しいことを学び、新しい挑戦に直面するのが大好きです。",
+      "bio1": "フランスで生まれ育ち、アジアで15年以上働いてきました。その経験のおかげで、さまざまな文化に出会い、その文化を受け入れることを学びました。常に新しいことを学び、新しいことに挑戦したいと思っています。フランスに戻って、ウェブ開発の方に転職したいと思います。Le Reacteur で JavaScript を中心としたブートキャンプを行い、そこで React と React Native を使用したコーディング方法を学びました。",
       "bio2": "現在、6ヶ月間のインターンシップまたはウェブデベロッパーとしての最初の仕事を探しています。 詳細については、僕のポートフォリオを参照してください。"
     },
     "aboutMe": {

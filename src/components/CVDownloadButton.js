@@ -7,7 +7,11 @@ const CVDownloadButton = () => {
   return (
     <div className="btn-container">
       <a
-        href="https://drive.google.com/file/d/1b3SZGNJ421K_Iid_QVeyP9k2DWtRNqDd/view?usp=share_link"
+        href={
+          language === "fr"
+            ? "https://drive.google.com/file/d/1NghW9B07patFXht10IF7ufz1iFZLAf3p/view?usp=sharing"
+            : "https://drive.google.com/file/d/11AjtDw6PzUhLdXPaKlTKJnFUe0eCpeFk/view?usp=sharing"
+        }
         className="main-btn"
       >
         <span className="btn-text">
