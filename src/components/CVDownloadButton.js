@@ -12,6 +12,8 @@ const CVDownloadButton = () => {
             ? "https://drive.google.com/file/d/1NghW9B07patFXht10IF7ufz1iFZLAf3p/view?usp=sharing"
             : "https://drive.google.com/file/d/11AjtDw6PzUhLdXPaKlTKJnFUe0eCpeFk/view?usp=sharing"
         }
+        target="_blank"
+        rel="noreferrer"
         className="main-btn"
       >
         <span className="btn-text">
