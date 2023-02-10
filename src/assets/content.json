@@ -3,7 +3,7 @@
     "home": {
       "h1Beg": "Hi, I'm ",
       "h1Span": "Boris Labianca.",
-      "h1End": " I'm a junior full-stack JavaScript developer.",
+      "h1End": " I'm a full-stack JavaScript developer.",
       "bio1": "I was born and raised in France, and I have worked in Asia for over 15 years. Thanks to that experience, I have come across different cultures and learned to embrace them. I am always eager to learn new things and take on new challenges. Now that I am back in France, I am transitioning to the world of web development. I did a bootcamp centered around JavaScript at Le Reacteur, where I learned how to code with React and React Native.",
       "bio2": "Currently, I am looking for a 6-month internship or a first job as a web developer. Check out my portfolio to learn more about me."
     },
@@ -190,7 +190,7 @@
     "home": {
       "h1Beg": "Bonjour, moi, c'est ",
       "h1Span": "Boris Labianca.",
-      "h1End": " Je suis un développeur full-stack JavaScript junior.",
+      "h1End": " Je suis un développeur full-stack JavaScript.",
       "bio1": "Né et élevé en France, j’ai eu la chance de travailler en Asie pendant plus de 15 ans. Cette expérience m'a permis d'entrer en contact avec différentes cultures et de les apprécier. J'aime apprendre de nouvelles choses et faire face à de nouveaux challenges. À présent en reconversion professionnelle, j’ai récemment terminé une formation de développeur web et mobile centrée sur le langage JavaScript avec Le Reacteur où j’ai appris à coder avec React et React Native.",
       "bio2": "Je suis actuellement à la recherche d’un stage de 6 mois ou d’un premier emploi en tant de que développeur web. N’hésitez pas à parcourir mon portfolio pour en savoir plus."
     },
