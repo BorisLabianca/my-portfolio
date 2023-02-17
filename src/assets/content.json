@@ -43,9 +43,32 @@
       "portfolioText": "Here are the projects I have done during the bootcamp and after.",
       "portfolioItems": [
         {
+          "title": "Weather App",
+          "stackType": "Front",
+          "screenShots": [
+            "https://user-images.githubusercontent.com/114598539/219785053-ca614c42-e99c-4801-9136-3d03e41c5438.gif"
+          ],
+          "hoverH3": "Project sources & site",
+          "githubLinkBack": "",
+          "githubLinkFront": "https://github.com/BorisLabianca/weather-app",
+          "netlifyLink": "https://boris-labianca-weather-app.netlify.app/",
+          "usedTech": {
+            "front": ["React", "Axios", "Redux Toolkit", "Tailwind CSS"],
+            "back": [],
+            "features": [
+              "Bilingual",
+              "Measure units switch",
+              "Dark/Light mode",
+              "Call to 3rd-party API to get city name from coordinates",
+              "Call to Open-Meteo API to fetch weather info"
+            ]
+          }
+        },
+        {
           "title": "HappyCow Replica",
           "stackType": "Full-stack",
           "screenShots": [
+            "https://user-images.githubusercontent.com/114598539/219403145-f9901f80-7d08-4d6a-8112-8bf670b7ca7d.gif",
             "https://res.cloudinary.com/dbe27rnpk/image/upload/v1675260158/portfolio/Capture_d_e%CC%81cran_2023-02-01_a%CC%80_15.02.03_z6dtxl.png",
             "https://res.cloudinary.com/dbe27rnpk/image/upload/v1675790568/portfolio/Capture_d_e%CC%81cran_2023-02-07_a%CC%80_13.51.28_mom3pj.png",
             "https://res.cloudinary.com/dbe27rnpk/image/upload/v1675790568/portfolio/Capture_d_e%CC%81cran_2023-02-07_a%CC%80_15.18.56_xfcqi3.png",
@@ -118,6 +141,7 @@
           "title": "Vinted Replica",
           "stackType": "Full-stack",
           "screenShots": [
+            "https://user-images.githubusercontent.com/114598539/219413559-700c02cc-8482-410d-b26a-254d5e680375.gif",
             "https://res.cloudinary.com/dbe27rnpk/image/upload/v1675261782/portfolio/Capture_d_e%CC%81cran_2023-02-01_a%CC%80_15.29.16_euwnaq.png",
             "https://res.cloudinary.com/dbe27rnpk/image/upload/v1675791846/portfolio/Capture_d_e%CC%81cran_2023-02-07_a%CC%80_18.43.08_i1tlia.png",
             "https://res.cloudinary.com/dbe27rnpk/image/upload/v1675791846/portfolio/Capture_d_e%CC%81cran_2023-02-07_a%CC%80_18.42.45_dilori.png",
@@ -229,9 +253,32 @@
       "portfolioText": "Voici mes projets réalisés pendant et après la formation.",
       "portfolioItems": [
         {
+          "title": "Site de prévisions météo",
+          "stackType": "Front",
+          "screenShots": [
+            "https://user-images.githubusercontent.com/114598539/219785053-ca614c42-e99c-4801-9136-3d03e41c5438.gif"
+          ],
+          "hoverH3": "Sources du projet et site",
+          "githubLinkBack": "",
+          "githubLinkFront": "https://github.com/BorisLabianca/weather-app",
+          "netlifyLink": "https://boris-labianca-weather-app.netlify.app/",
+          "usedTech": {
+            "front": ["React", "Axios", "Redux Toolkit", "Tailwind CSS"],
+            "back": [],
+            "features": [
+              "Bilingual",
+              "Measure units switch",
+              "Dark/Light mode",
+              "Call to 3rd-party API to get city name from coordinates",
+              "Call to Open-Meteo API to fetch weather info"
+            ]
+          }
+        },
+        {
           "title": "Réplique du site HappyCow",
           "stackType": "Full-stack",
           "screenShots": [
+            "https://user-images.githubusercontent.com/114598539/219403145-f9901f80-7d08-4d6a-8112-8bf670b7ca7d.gif",
             "https://res.cloudinary.com/dbe27rnpk/image/upload/v1675260158/portfolio/Capture_d_e%CC%81cran_2023-02-01_a%CC%80_15.02.03_z6dtxl.png",
             "https://res.cloudinary.com/dbe27rnpk/image/upload/v1675790568/portfolio/Capture_d_e%CC%81cran_2023-02-07_a%CC%80_13.51.28_mom3pj.png",
             "https://res.cloudinary.com/dbe27rnpk/image/upload/v1675790568/portfolio/Capture_d_e%CC%81cran_2023-02-07_a%CC%80_15.18.56_xfcqi3.png",
@@ -304,6 +351,7 @@
           "title": "Réplique du site Vinted",
           "stackType": "Full-stack",
           "screenShots": [
+            "https://user-images.githubusercontent.com/114598539/219413559-700c02cc-8482-410d-b26a-254d5e680375.gif",
             "https://res.cloudinary.com/dbe27rnpk/image/upload/v1675261782/portfolio/Capture_d_e%CC%81cran_2023-02-01_a%CC%80_15.29.16_euwnaq.png",
             "https://res.cloudinary.com/dbe27rnpk/image/upload/v1675791846/portfolio/Capture_d_e%CC%81cran_2023-02-07_a%CC%80_18.43.08_i1tlia.png",
             "https://res.cloudinary.com/dbe27rnpk/image/upload/v1675791846/portfolio/Capture_d_e%CC%81cran_2023-02-07_a%CC%80_18.42.45_dilori.png",
@@ -415,9 +463,32 @@
       "portfolioText": "こちらは僕の制作。",
       "portfolioItems": [
         {
+          "title": "天気予報",
+          "stackType": "Front",
+          "screenShots": [
+            "https://user-images.githubusercontent.com/114598539/219785053-ca614c42-e99c-4801-9136-3d03e41c5438.gif"
+          ],
+          "hoverH3": "Githubとサイトのリンク",
+          "githubLinkBack": "",
+          "githubLinkFront": "https://github.com/BorisLabianca/weather-app",
+          "netlifyLink": "https://boris-labianca-weather-app.netlify.app/",
+          "usedTech": {
+            "front": ["React", "Axios", "Redux Toolkit", "Tailwind CSS"],
+            "back": [],
+            "features": [
+              "Bilingual",
+              "Measure units switch",
+              "Dark/Light mode",
+              "Call to 3rd-party API to get city name from coordinates",
+              "Call to Open-Meteo API to fetch weather info"
+            ]
+          }
+        },
+        {
           "title": "HappyCowの副製品",
           "stackType": "Full-stack",
           "screenShots": [
+            "https://user-images.githubusercontent.com/114598539/219403145-f9901f80-7d08-4d6a-8112-8bf670b7ca7d.gif",
             "https://res.cloudinary.com/dbe27rnpk/image/upload/v1675260158/portfolio/Capture_d_e%CC%81cran_2023-02-01_a%CC%80_15.02.03_z6dtxl.png",
             "https://res.cloudinary.com/dbe27rnpk/image/upload/v1675790568/portfolio/Capture_d_e%CC%81cran_2023-02-07_a%CC%80_13.51.28_mom3pj.png",
             "https://res.cloudinary.com/dbe27rnpk/image/upload/v1675790568/portfolio/Capture_d_e%CC%81cran_2023-02-07_a%CC%80_15.18.56_xfcqi3.png",
@@ -490,6 +561,7 @@
           "title": "Vintedの副製品",
           "stackType": "Full-stack",
           "screenShots": [
+            "https://user-images.githubusercontent.com/114598539/219413559-700c02cc-8482-410d-b26a-254d5e680375.gif",
             "https://res.cloudinary.com/dbe27rnpk/image/upload/v1675261782/portfolio/Capture_d_e%CC%81cran_2023-02-01_a%CC%80_15.29.16_euwnaq.png",
             "https://res.cloudinary.com/dbe27rnpk/image/upload/v1675791846/portfolio/Capture_d_e%CC%81cran_2023-02-07_a%CC%80_18.43.08_i1tlia.png",
             "https://res.cloudinary.com/dbe27rnpk/image/upload/v1675791846/portfolio/Capture_d_e%CC%81cran_2023-02-07_a%CC%80_18.42.45_dilori.png",
