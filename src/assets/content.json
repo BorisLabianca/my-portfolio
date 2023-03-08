@@ -43,6 +43,26 @@
       "portfolioText": "Here are the projects I have done during the bootcamp and after.",
       "portfolioItems": [
         {
+          "title": "Hangman Game",
+          "stackType": "Front",
+          "screenShots": [
+            "https://user-images.githubusercontent.com/114598539/223774340-4518d0aa-325a-42df-b67d-9a5f416a2e38.png"
+          ],
+          "hoverH3": "Project sources & site",
+          "githubLinkBack": "",
+          "githubLinkFront": "https://github.com/BorisLabianca/hangman-game",
+          "netlifyLink": "https://boris-labianca-hangman-game.netlify.app/",
+          "usedTech": {
+            "front": ["React", "TypeScript", "Redux Toolkit", "Tailwind CSS"],
+            "back": [],
+            "features": [
+              "Bilingual English and French",
+              "3 difficulty levels",
+              "Dark/Light mode supporting system preference and manual selection"
+            ]
+          }
+        },
+        {
           "title": "Currency Converter",
           "stackType": "Front",
           "screenShots": [
@@ -59,7 +79,7 @@
               "Call to exchangerate api to get rates",
               "Custom-made country selector dropdown",
               "Switch currencies",
-              "Dark/Light mode"
+              "Dark/Light mode supporting system preference and manual selection"
             ]
           }
         },
@@ -119,7 +139,7 @@
         },
         {
           "title": "Airbnb app replica",
-          "stackType": "Front-end",
+          "stackType": "Front",
           "screenShots": [
             "https://res.cloudinary.com/dbe27rnpk/image/upload/v1675269141/portfolio/Artboard_1_xmshky.png"
           ],
@@ -274,6 +294,26 @@
       "portfolioText": "Voici mes projets réalisés pendant et après la formation.",
       "portfolioItems": [
         {
+          "title": "Jeu du pendu",
+          "stackType": "Front",
+          "screenShots": [
+            "https://user-images.githubusercontent.com/114598539/223774340-4518d0aa-325a-42df-b67d-9a5f416a2e38.png"
+          ],
+          "hoverH3": "Sources du projet et site",
+          "githubLinkBack": "",
+          "githubLinkFront": "https://github.com/BorisLabianca/hangman-game",
+          "netlifyLink": "https://boris-labianca-hangman-game.netlify.app/",
+          "usedTech": {
+            "front": ["React", "TypeScript", "Redux Toolkit", "Tailwind CSS"],
+            "back": [],
+            "features": [
+              "Bilingual English and French",
+              "3 difficulty levels",
+              "Dark/Light mode supporting system preference and manual selection"
+            ]
+          }
+        },
+        {
           "title": "Convertisseur de devises",
           "stackType": "Front",
           "screenShots": [
@@ -350,7 +390,7 @@
         },
         {
           "title": "Réplique de l'appli Airbnb",
-          "stackType": "Front-end",
+          "stackType": "Front",
           "screenShots": [
             "https://res.cloudinary.com/dbe27rnpk/image/upload/v1675269141/portfolio/Artboard_1_xmshky.png"
           ],
@@ -505,6 +545,26 @@
       "portfolioText": "こちらは僕の制作。",
       "portfolioItems": [
         {
+          "title": "ハングマン・ゲーム",
+          "stackType": "Front",
+          "screenShots": [
+            "https://user-images.githubusercontent.com/114598539/223774340-4518d0aa-325a-42df-b67d-9a5f416a2e38.png"
+          ],
+          "hoverH3": "Githubとサイトのリンク",
+          "githubLinkBack": "",
+          "githubLinkFront": "https://github.com/BorisLabianca/hangman-game",
+          "netlifyLink": "https://boris-labianca-hangman-game.netlify.app/",
+          "usedTech": {
+            "front": ["React", "TypeScript", "Redux Toolkit", "Tailwind CSS"],
+            "back": [],
+            "features": [
+              "Bilingual English and French",
+              "3 difficulty levels",
+              "Dark/Light mode supporting system preference and manual selection"
+            ]
+          }
+        },
+        {
           "title": "通貨換算",
           "stackType": "Front",
           "screenShots": [
@@ -581,7 +641,7 @@
         },
         {
           "title": "Airbnbアプリの副製品",
-          "stackType": "Front-end",
+          "stackType": "Front",
           "screenShots": [
             "https://res.cloudinary.com/dbe27rnpk/image/upload/v1675269141/portfolio/Artboard_1_xmshky.png"
           ],
