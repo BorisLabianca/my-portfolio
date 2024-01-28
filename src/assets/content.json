@@ -43,6 +43,31 @@
       "portfolioText": "Here are the projects I have done during the bootcamp and after.",
       "portfolioItems": [
         {
+          "title": "Movie Review App",
+          "stackType": "Full-stack",
+          "screenShots": [
+            "https://github.com/BorisLabianca/movie-review-app-backend/assets/114598539/3b0e66f8-3d98-4a97-8550-c3cf5d3d3f9b"
+          ],
+          "hoverH3": "Project sources & site",
+          "githubLinkBack": "https://github.com/BorisLabianca/movie-review-app-backend",
+          "githubLinkFront": "https://github.com/BorisLabianca/movie-review-app-frontend",
+          "netlifyLink": "",
+          "usedTech": {
+            "front": ["React", "Axios", "Tailwind CSS", "JSON Web Token"],
+            "back": ["Express", "MongoDB"],
+            "features": [
+              "Authentication",
+              "Add a movie",
+              "Add posters",
+              "Add actors",
+              "Add trailer",
+              "Review system",
+              "Rating system",
+              "Autosuggestions search bar"
+            ]
+          }
+        },
+        {
           "title": "Hangman Game",
           "stackType": "Front",
           "screenShots": [
@@ -294,6 +319,31 @@
       "portfolioText": "Voici mes projets réalisés pendant et après la formation.",
       "portfolioItems": [
         {
+          "title": "BDD Cinéma",
+          "stackType": "Full-stack",
+          "screenShots": [
+            "https://github.com/BorisLabianca/movie-review-app-backend/assets/114598539/3b0e66f8-3d98-4a97-8550-c3cf5d3d3f9b"
+          ],
+          "hoverH3": "Sources du projet et site",
+          "githubLinkBack": "https://github.com/BorisLabianca/movie-review-app-backend",
+          "githubLinkFront": "https://github.com/BorisLabianca/movie-review-app-frontend",
+          "netlifyLink": "",
+          "usedTech": {
+            "front": ["React", "Axios", "Tailwind CSS", "JSON Web Token"],
+            "back": ["Express", "MongoDB"],
+            "features": [
+              "Authentication",
+              "Add a movie",
+              "Add posters",
+              "Add actors",
+              "Add trailer",
+              "Review system",
+              "Rating system",
+              "Autosuggestions search bar"
+            ]
+          }
+        },
+        {
           "title": "Jeu du pendu",
           "stackType": "Front",
           "screenShots": [
@@ -544,6 +594,31 @@
       "h2Span": "実績",
       "portfolioText": "こちらは僕の制作。",
       "portfolioItems": [
+        {
+          "title": "映画リービューサイト",
+          "stackType": "Full-stack",
+          "screenShots": [
+            "https://github.com/BorisLabianca/movie-review-app-backend/assets/114598539/3b0e66f8-3d98-4a97-8550-c3cf5d3d3f9b"
+          ],
+          "hoverH3": "Githubとサイトのリンク",
+          "githubLinkBack": "https://github.com/BorisLabianca/movie-review-app-backend",
+          "githubLinkFront": "https://github.com/BorisLabianca/movie-review-app-frontend",
+          "netlifyLink": "",
+          "usedTech": {
+            "front": ["React", "Axios", "Tailwind CSS", "JSON Web Token"],
+            "back": ["Express", "MongoDB"],
+            "features": [
+              "Authentication",
+              "Add a movie",
+              "Add posters",
+              "Add actors",
+              "Add trailer",
+              "Review system",
+              "Rating system",
+              "Autosuggestions search bar"
+            ]
+          }
+        },
         {
           "title": "ハングマン・ゲーム",
           "stackType": "Front",
